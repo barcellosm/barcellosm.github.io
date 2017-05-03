@@ -67,7 +67,7 @@ var loop = () => {
         
         if (portrait === false) {
             
-            // show orientation error
+            setDOMvalue('error_orientation', 'display', 'inline');
             portrait = true;
             
         };
@@ -78,7 +78,7 @@ var loop = () => {
         
         if (landscape === false) {
             
-            // hide orientation error
+            setDOMvalue('error_orientation', 'display', 'none');
             landscape = true;
             
         };
