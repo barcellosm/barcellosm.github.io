@@ -1,0 +1,5555 @@
+/* ↓ MOVE IN FROM LEFT ↓ */
+
+@-webkit-keyframes move_in_from_left {
+    
+    0% {
+        
+        left: 0%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 50%;
+        opacity: 1;
+        
+    }
+    
+}
+
+@-moz-keyframes move_in_from_left {
+    
+    0% {
+        
+        left: 0%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 50%;
+        opacity: 1;
+        
+    }
+    
+}
+
+@-o-keyframes move_in_from_left {
+    
+    0% {
+        
+        left: 0%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 50%;
+        opacity: 1;
+        
+    }
+    
+}
+
+@keyframes move_in_from_left {
+    
+    0% {
+        
+        left: 0%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 50%;
+        opacity: 1;
+        
+    }
+    
+}
+    
+.move_in_from_left {
+    
+    -webkit-animation-name: move_in_from_left;
+    -webkit-animation-duration: 1000ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_in_from_left;
+    -moz-animation-duration: 1000ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_in_from_left;
+    -o-animation-duration: 1000ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_in_from_left;
+    animation-duration: 1000ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE IN FROM LEFT ↑ */
+
+/* ↓ MOVE OUT FROM LEFT ↓ */
+
+@-webkit-keyframes move_out_from_left {
+    
+    0% {
+        
+        left: 50%;
+        opacity: 1;
+          
+    }
+    
+    100% {
+        
+        left: 100%;
+        opacity: 0;
+        
+    }
+    
+}
+
+@-moz-keyframes move_out_from_left {
+    
+    0% {
+        
+        left: 50%;
+        opacity: 1;
+          
+    }
+    
+    100% {
+        
+        left: 100%;
+        opacity: 0;
+        
+    }
+    
+}
+
+@-o-keyframes move_out_from_left {
+    
+    0% {
+        
+        left: 50%;
+        opacity: 1;
+          
+    }
+    
+    100% {
+        
+        left: 100%;
+        opacity: 0;
+        
+    }
+    
+}
+
+@keyframes move_out_from_left {
+    
+    0% {
+        
+        left: 50%;
+        opacity: 1;
+          
+    }
+    
+    100% {
+        
+        left: 100%;
+        opacity: 0;
+        
+    }
+    
+}
+    
+.move_out_from_left {
+    
+    -webkit-animation-name: move_out_from_left;
+    -webkit-animation-duration: 500ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_out_from_left;
+    -moz-animation-duration: 500ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_out_from_left;
+    -o-animation-duration: 500ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_out_from_left;
+    animation-duration: 500ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE OUT FROM LEFT ↑ */
+
+/* ↓ MOVE IN FROM RIGHT ↓ */
+
+@-webkit-keyframes move_in_from_right {
+    
+    0% {
+        
+        left: 100%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 50%;
+        opacity: 1;
+        
+    }
+    
+}
+
+@-moz-keyframes move_in_from_right {
+    
+    0% {
+        
+        left: 100%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 50%;
+        opacity: 1;
+        
+    }
+    
+}
+
+@-o-keyframes move_in_from_right {
+    
+    0% {
+        
+        left: 100%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 50%;
+        opacity: 1;
+        
+    }
+    
+}
+
+@keyframes move_in_from_right {
+    
+    0% {
+        
+        left: 100%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 50%;
+        opacity: 1;
+        
+    }
+    
+}
+    
+.move_in_from_right {
+    
+    -webkit-animation-name: move_in_from_right;
+    -webkit-animation-duration: 1000ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_in_from_right;
+    -moz-animation-duration: 1000ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_in_from_right;
+    -o-animation-duration: 1000ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_in_from_right;
+    animation-duration: 1000ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE IN FROM RIGHT ↑ */
+
+/* ↓ MOVE OUT FROM RIGHT ↓ */
+
+@-webkit-keyframes move_out_from_right {
+    
+    0% {
+        
+        left: 50%;
+        opacity: 1; 
+          
+    }
+    
+    100% {
+        
+        left: 0%;
+        opacity: 0;
+        
+    }
+    
+}
+
+@-moz-keyframes move_out_from_right {
+    
+    0% {
+        
+        left: 50%;
+        opacity: 1; 
+          
+    }
+    
+    100% {
+        
+        left: 0%;
+        opacity: 0;
+        
+    }
+    
+}
+
+@-o-keyframes move_out_from_right {
+    
+    0% {
+        
+        left: 50%;
+        opacity: 1; 
+          
+    }
+    
+    100% {
+        
+        left: 0%;
+        opacity: 0;
+        
+    }
+    
+}
+
+@keyframes move_out_from_right {
+    
+    0% {
+        
+        left: 50%;
+        opacity: 1; 
+          
+    }
+    
+    100% {
+        
+        left: 0%;
+        opacity: 0;
+        
+    }
+    
+}
+    
+.move_out_from_right {
+    
+    -webkit-animation-name: move_out_from_right;
+    -webkit-animation-duration: 500ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_out_from_right;
+    -moz-animation-duration: 500ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_out_from_right;
+    -o-animation-duration: 500ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_out_from_right;
+    animation-duration: 500ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE OUT FROM RIGHT ↑ */
+
+/* ↓ MOVE IN JOB DESCRIPTION FROM LEFT ↓ */
+
+@-webkit-keyframes move_in_job_description_from_left {
+    
+    0% {
+        
+        left: 0%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 23.8851171875%;
+        opacity: 1;
+        
+    }
+    
+}
+
+@-moz-keyframes move_in_job_description_from_left {
+    
+    0% {
+        
+        left: 0%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 23.8851171875%;
+        opacity: 1;
+        
+    }
+    
+}
+
+@-o-keyframes move_in_job_description_from_left {
+    
+    0% {
+        
+        left: 0%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 23.8851171875%;
+        opacity: 1;
+        
+    }
+    
+}
+
+@keyframes move_in_job_description_from_left {
+    
+    0% {
+        
+        left: 0%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 23.8851171875%;
+        opacity: 1;
+        
+    }
+    
+}
+    
+.move_in_job_description_from_left {
+    
+    -webkit-animation-name: move_in_job_description_from_left;
+    -webkit-animation-duration: 1000ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_in_job_description_from_left;
+    -moz-animation-duration: 1000ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_in_job_description_from_left;
+    -o-animation-duration: 1000ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_in_job_description_from_left;
+    animation-duration: 1000ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE IN JOB DESCRIPTION FROM LEFT ↑ */
+
+/* ↓ MOVE OUT JOB DESCRIPTION FROM LEFT ↓ */
+
+@-webkit-keyframes move_out_job_description_from_left {
+    
+    0% {
+        
+        left: 23.8851171875%;
+        opacity: 1;
+          
+    }
+    
+    100% {
+        
+        left: 100%;
+        opacity: 0;
+        
+    }
+    
+}
+
+@-moz-keyframes move_out_job_description_from_left {
+    
+    0% {
+        
+        left: 23.8851171875%;
+        opacity: 1;
+          
+    }
+    
+    100% {
+        
+        left: 100%;
+        opacity: 0;
+        
+    }
+    
+}
+
+@-o-keyframes move_out_job_description_from_left {
+    
+    0% {
+        
+        left: 23.8851171875%;
+        opacity: 1;
+          
+    }
+    
+    100% {
+        
+        left: 100%;
+        opacity: 0;
+        
+    }
+    
+}
+
+@keyframes move_out_job_description_from_left {
+    
+    0% {
+        
+        left: 23.8851171875%;
+        opacity: 1;
+          
+    }
+    
+    100% {
+        
+        left: 100%;
+        opacity: 0;
+        
+    }
+    
+}
+    
+.move_out_job_description_from_left {
+    
+    -webkit-animation-name: move_out_job_description_from_left;
+    -webkit-animation-duration: 500ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_out_job_description_from_left;
+    -moz-animation-duration: 500ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_out_job_description_from_left;
+    -o-animation-duration: 500ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_out_job_description_from_left;
+    animation-duration: 500ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE OUT JOB DESCRIPTION FROM LEFT ↑ */
+
+/* ↓ MOVE IN JOB DESCRIPTION FROM RIGHT ↓ */
+
+@-webkit-keyframes move_in_job_description_from_right {
+    
+    0% {
+        
+        left: 100%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 23.8851171875%;
+        opacity: 1;
+        
+    }
+    
+}
+
+@-moz-keyframes move_in_job_description_from_right {
+    
+    0% {
+        
+        left: 100%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 23.8851171875%;
+        opacity: 1;
+        
+    }
+    
+}
+
+@-o-keyframes move_in_job_description_from_right {
+    
+    0% {
+        
+        left: 100%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 23.8851171875%;
+        opacity: 1;
+        
+    }
+    
+}
+
+@keyframes move_in_job_description_from_right {
+    
+    0% {
+        
+        left: 100%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 23.8851171875%;
+        opacity: 1;
+        
+    }
+    
+}
+    
+.move_in_job_description_from_right {
+    
+    -webkit-animation-name: move_in_job_description_from_right;
+    -webkit-animation-duration: 1000ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_in_job_description_from_right;
+    -moz-animation-duration: 1000ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_in_job_description_from_right;
+    -o-animation-duration: 1000ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_in_job_description_from_right;
+    animation-duration: 1000ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE IN JOB DESCRIPTION FROM RIGHT ↑ */
+
+/* ↓ MOVE OUT JOB DESCRIPTION FROM RIGHT ↓ */
+
+@-webkit-keyframes move_out_job_description_from_right {
+    
+    0% {
+        
+        left: 23.8851171875%;
+        opacity: 1; 
+          
+    }
+    
+    100% {
+        
+        left: 0%;
+        opacity: 0;
+        
+    }
+    
+}
+
+@-moz-keyframes move_out_job_description_from_right {
+    
+    0% {
+        
+        left: 23.8851171875%;
+        opacity: 1; 
+          
+    }
+    
+    100% {
+        
+        left: 0%;
+        opacity: 0;
+        
+    }
+    
+}
+
+@-o-keyframes move_out_job_description_from_right {
+    
+    0% {
+        
+        left: 23.8851171875%;
+        opacity: 1; 
+          
+    }
+    
+    100% {
+        
+        left: 0%;
+        opacity: 0;
+        
+    }
+    
+}
+
+@keyframes move_out_job_description_from_right {
+    
+    0% {
+        
+        left: 23.8851171875%;
+        opacity: 1; 
+          
+    }
+    
+    100% {
+        
+        left: 0%;
+        opacity: 0;
+        
+    }
+    
+}
+    
+.move_out_job_description_from_right {
+    
+    -webkit-animation-name: move_out_job_description_from_right;
+    -webkit-animation-duration: 500ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_out_job_description_from_right;
+    -moz-animation-duration: 500ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_out_job_description_from_right;
+    -o-animation-duration: 500ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_out_job_description_from_right;
+    animation-duration: 500ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE OUT JOB DESCRIPTION FROM RIGHT  ↑ */
+
+/* ↓ MOVE IN JOB DESCRIPTION FROM CENTER OUT ↓ */
+
+@-webkit-keyframes move_in_job_description_from_center_out {
+    
+    0% {
+        
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        opacity: 1;
+        
+    }
+    
+}
+
+@-moz-keyframes move_in_job_description_from_center_out {
+    
+    0% {
+        
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        opacity: 1;
+        
+    }
+    
+}
+
+@-o-keyframes move_in_job_description_from_center_out {
+    
+    0% {
+        
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        opacity: 1;
+        
+    }
+    
+}
+
+@keyframes move_in_job_description_from_center_out {
+    
+    0% {
+        
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        opacity: 1;
+        
+    }
+    
+}
+    
+.move_in_job_description_from_center_out {
+    
+    -webkit-animation-name: move_in_job_description_from_center_out;
+    -webkit-animation-duration: 1000ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_in_job_description_from_center_out;
+    -moz-animation-duration: 1000ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_in_job_description_from_center_out;
+    -o-animation-duration: 1000ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_in_job_description_from_center_out;
+    animation-duration: 1000ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE IN JOB DESCRIPTION FROM CENTER OUT ↑ */
+
+/* ↓ MOVE OUT JOB DESCRIPTION FROM CENTER OUT ↓ */
+
+@-webkit-keyframes move_out_job_description_from_center_out {
+    
+    0% {
+        
+        opacity: 1; 
+          
+    }
+    
+    100% {
+        
+        opacity: 0;
+        
+    }
+    
+}
+
+@-moz-keyframes move_out_job_description_from_center_out {
+    
+    0% {
+        
+        opacity: 1; 
+          
+    }
+    
+    100% {
+        
+        opacity: 0;
+        
+    }
+    
+}
+
+@-o-keyframes move_out_job_description_from_center_out {
+    
+    0% {
+        
+        opacity: 1; 
+          
+    }
+    
+    100% {
+        
+        opacity: 0;
+        
+    }
+    
+}
+
+@keyframes move_out_job_description_from_center_out {
+    
+    0% {
+        
+        opacity: 1; 
+          
+    }
+    
+    100% {
+        
+        opacity: 0;
+        
+    }
+    
+}
+    
+.move_out_job_description_from_center_out {
+    
+    -webkit-animation-name: move_out_job_description_from_center_out;
+    -webkit-animation-duration: 500ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_out_job_description_from_center_out;
+    -moz-animation-duration: 500ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_out_job_description_from_center_out;
+    -o-animation-duration: 500ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_out_job_description_from_center_out;
+    animation-duration: 500ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE OUT JOB DESCRIPTION FROM CENTER OUT ↑ */
+
+/* ↓ MOVE IN JOB DESCRIPTION FROM CENTER IN ↓ */
+
+@-webkit-keyframes move_in_job_description_from_center_in {
+    
+    0% {
+        
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        opacity: 1;
+        
+    }
+    
+}
+
+@-moz-keyframes move_in_job_description_from_center_in {
+    
+    0% {
+        
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        opacity: 1;
+        
+    }
+    
+}
+
+@-o-keyframes move_in_job_description_from_center_in {
+    
+    0% {
+        
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        opacity: 1;
+        
+    }
+    
+}
+
+@keyframes move_in_job_description_from_center_in {
+    
+    0% {
+        
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        opacity: 1;
+        
+    }
+    
+}
+    
+.move_in_job_description_from_center_in {
+    
+    -webkit-animation-name: move_in_job_description_from_center_in;
+    -webkit-animation-duration: 1000ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_in_job_description_from_center_in;
+    -moz-animation-duration: 1000ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_in_job_description_from_center_in;
+    -o-animation-duration: 1000ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_in_job_description_from_center_in;
+    animation-duration: 1000ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE IN JOB DESCRIPTION FROM CENTER IN ↑ */
+
+/* ↓ MOVE OUT JOB DESCRIPTION FROM CENTER IN ↓ */
+
+@-webkit-keyframes move_out_job_description_from_center_in {
+    
+    0% {
+        
+        opacity: 1;  
+          
+    }
+    
+    100% {
+        
+        opacity: 0;
+        
+    }
+    
+}
+
+@-moz-keyframes move_out_job_description_from_center_in {
+    
+    0% {
+        
+        opacity: 1;  
+          
+    }
+    
+    100% {
+        
+        opacity: 0;
+        
+    }
+    
+}
+
+@-o-keyframes move_out_job_description_from_center_in {
+    
+    0% {
+        
+        opacity: 1;  
+          
+    }
+    
+    100% {
+        
+        opacity: 0;
+        
+    }
+    
+}
+
+@keyframes move_out_job_description_from_center_in {
+    
+    0% {
+        
+        opacity: 1;  
+          
+    }
+    
+    100% {
+        
+        opacity: 0;
+        
+    }
+    
+}
+    
+.move_out_job_description_from_center_in {
+    
+    -webkit-animation-name: move_out_job_description_from_center_in;
+    -webkit-animation-duration: 500ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_out_job_description_from_center_in;
+    -moz-animation-duration: 500ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_out_job_description_from_center_in;
+    -o-animation-duration: 500ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_out_job_description_from_center_in;
+    animation-duration: 500ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE OUT JOB DESCRIPTION FROM CENTER IN ↑ */
+
+/* ↓ MOVE IN BUTTON JOB GALLERY FROM LEFT ↓ */
+
+@-webkit-keyframes move_in_button_job_gallery_from_left {
+    
+    0% {
+        
+        left: 0%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 61.962890625%;
+        opacity: 1;
+        
+    }
+    
+}
+
+@-moz-keyframes move_in_button_job_gallery_from_left {
+    
+    0% {
+        
+        left: 0%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 61.962890625%;
+        opacity: 1;
+        
+    }
+    
+}
+
+@-o-keyframes move_in_button_job_gallery_from_left {
+    
+    0% {
+        
+        left: 0%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 61.962890625%;
+        opacity: 1;
+        
+    }
+    
+}
+
+@keyframes move_in_button_job_gallery_from_left {
+    
+    0% {
+        
+        left: 0%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 61.962890625%;
+        opacity: 1;
+        
+    }
+    
+}
+    
+.move_in_button_job_gallery_from_left {
+    
+    -webkit-animation-name: move_in_button_job_gallery_from_left;
+    -webkit-animation-duration: 1000ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_in_button_job_gallery_from_left;
+    -moz-animation-duration: 1000ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_in_button_job_gallery_from_left;
+    -o-animation-duration: 1000ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_in_button_job_gallery_from_left;
+    animation-duration: 1000ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE IN BUTTON JOB GALLERY FROM LEFT ↑ */
+
+/* ↓ MOVE OUT BUTTON JOB GALLERY FROM LEFT ↓ */
+
+@-webkit-keyframes move_out_button_job_gallery_from_left {
+    
+    0% {
+        
+        left: 61.962890625%;
+        opacity: 1;
+          
+    }
+    
+    100% {
+        
+        left: 100%;
+        opacity: 0;
+        
+    }
+    
+}
+
+@-moz-keyframes move_out_button_job_gallery_from_left {
+    
+    0% {
+        
+        left: 61.962890625%;
+        opacity: 1;
+          
+    }
+    
+    100% {
+        
+        left: 100%;
+        opacity: 0;
+        
+    }
+    
+}
+
+@-o-keyframes move_out_button_job_gallery_from_left {
+    
+    0% {
+        
+        left: 61.962890625%;
+        opacity: 1;
+          
+    }
+    
+    100% {
+        
+        left: 100%;
+        opacity: 0;
+        
+    }
+    
+}
+
+@keyframes move_out_button_job_gallery_from_left {
+    
+    0% {
+        
+        left: 61.962890625%;
+        opacity: 1;
+          
+    }
+    
+    100% {
+        
+        left: 100%;
+        opacity: 0;
+        
+    }
+    
+}
+    
+.move_out_button_job_gallery_from_left {
+    
+    -webkit-animation-name: move_out_button_job_gallery_from_left;
+    -webkit-animation-duration: 500ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_out_button_job_gallery_from_left;
+    -moz-animation-duration: 500ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_out_button_job_gallery_from_left;
+    -o-animation-duration: 500ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_out_button_job_gallery_from_left;
+    animation-duration: 500ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE OUT BUTTON JOB GALLERY FROM LEFT ↑ */
+
+/* ↓ MOVE IN BUTTON JOB GALLERY FROM RIGHT ↓ */
+
+@-webkit-keyframes move_in_button_job_gallery_from_right {
+    
+    0% {
+        
+        left: 100%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 61.962890625%;
+        opacity: 1;
+        
+    }
+    
+}
+
+@-moz-keyframes move_in_button_job_gallery_from_right {
+    
+    0% {
+        
+        left: 100%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 61.962890625%;
+        opacity: 1;
+        
+    }
+    
+}
+
+@-o-keyframes move_in_button_job_gallery_from_right {
+    
+    0% {
+        
+        left: 100%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 61.962890625%;
+        opacity: 1;
+        
+    }
+    
+}
+
+@keyframes move_in_button_job_gallery_from_right {
+    
+    0% {
+        
+        left: 100%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 61.962890625%;
+        opacity: 1;
+        
+    }
+    
+}
+    
+.move_in_button_job_gallery_from_right {
+    
+    -webkit-animation-name: move_in_button_job_gallery_from_right;
+    -webkit-animation-duration: 1000ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_in_button_job_gallery_from_right;
+    -moz-animation-duration: 1000ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_in_button_job_gallery_from_right;
+    -o-animation-duration: 1000ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_in_button_job_gallery_from_right;
+    animation-duration: 1000ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE IN BUTTON JOB GALLERY FROM RIGHT ↑ */
+
+/* ↓ MOVE OUT BUTTON JOB GALLERY FROM RIGHT ↓ */
+
+@-webkit-keyframes move_out_button_job_gallery_from_right {
+    
+    0% {
+        
+        left: 61.962890625%;
+        opacity: 1; 
+          
+    }
+    
+    100% {
+        
+        left: 0%;
+        opacity: 0;
+        
+    }
+    
+}
+
+@-moz-keyframes move_out_button_job_gallery_from_right {
+    
+    0% {
+        
+        left: 61.962890625%;
+        opacity: 1; 
+          
+    }
+    
+    100% {
+        
+        left: 0%;
+        opacity: 0;
+        
+    }
+    
+}
+
+@-o-keyframes move_out_button_job_gallery_from_right {
+    
+    0% {
+        
+        left: 61.962890625%;
+        opacity: 1; 
+          
+    }
+    
+    100% {
+        
+        left: 0%;
+        opacity: 0;
+        
+    }
+    
+}
+
+@keyframes move_out_button_job_gallery_from_right {
+    
+    0% {
+        
+        left: 61.962890625%;
+        opacity: 1; 
+          
+    }
+    
+    100% {
+        
+        left: 0%;
+        opacity: 0;
+        
+    }
+    
+}
+    
+.move_out_button_job_gallery_from_right {
+    
+    -webkit-animation-name: move_out_button_job_gallery_from_right;
+    -webkit-animation-duration: 500ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_out_button_job_gallery_from_right;
+    -moz-animation-duration: 500ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_out_button_job_gallery_from_right;
+    -o-animation-duration: 500ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_out_button_job_gallery_from_right;
+    animation-duration: 500ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE OUT BUTTON JOB GALLERY FROM RIGHT ↑ */
+
+/* ↓ MOVE IN BUTTON JOB GALLERY FROM CENTER OUT ↓ */
+
+@-webkit-keyframes move_in_button_job_gallery_from_center_out {
+    
+    0% {
+        
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        opacity: 1;
+        
+    }
+    
+}
+
+@-moz-keyframes move_in_button_job_gallery_from_center_out {
+    
+    0% {
+        
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        opacity: 1;
+        
+    }
+    
+}
+
+@-o-keyframes move_in_button_job_gallery_from_center_out {
+    
+    0% {
+        
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        opacity: 1;
+        
+    }
+    
+}
+
+@keyframes move_in_button_job_gallery_from_center_out {
+    
+    0% {
+        
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        opacity: 1;
+        
+    }
+    
+}
+    
+.move_in_button_job_gallery_from_center_out {
+    
+    -webkit-animation-name: move_in_button_job_gallery_from_center_out;
+    -webkit-animation-duration: 1000ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_in_button_job_gallery_from_center_out;
+    -moz-animation-duration: 1000ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_in_button_job_gallery_from_center_out;
+    -o-animation-duration: 1000ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_in_button_job_gallery_from_center_out;
+    animation-duration: 1000ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE IN BUTTON JOB GALLERY FROM CENTER OUT ↑ */
+
+/* ↓ MOVE OUT BUTTON JOB GALLERY FROM CENTER OUT ↓ */
+
+@-webkit-keyframes move_out_button_job_gallery_from_center_out {
+    
+    0% {
+        
+        opacity: 1; 
+          
+    }
+    
+    100% {
+        
+        opacity: 0;
+        
+    }
+    
+}
+
+@-moz-keyframes move_out_button_job_gallery_from_center_out {
+    
+    0% {
+        
+        opacity: 1; 
+          
+    }
+    
+    100% {
+        
+        opacity: 0;
+        
+    }
+    
+}
+
+@-o-keyframes move_out_button_job_gallery_from_center_out {
+    
+    0% {
+        
+        opacity: 1; 
+          
+    }
+    
+    100% {
+        
+        opacity: 0;
+        
+    }
+    
+}
+
+@keyframes move_out_button_job_gallery_from_center_out {
+    
+    0% {
+        
+        opacity: 1; 
+          
+    }
+    
+    100% {
+        
+        opacity: 0;
+        
+    }
+    
+}
+    
+.move_out_button_job_gallery_from_center_out {
+    
+    -webkit-animation-name: move_out_button_job_gallery_from_center_out;
+    -webkit-animation-duration: 500ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_out_button_job_gallery_from_center_out;
+    -moz-animation-duration: 500ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_out_button_job_gallery_from_center_out;
+    -o-animation-duration: 500ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_out_button_job_gallery_from_center_out;
+    animation-duration: 500ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE OUT BUTTON JOB GALLERY FROM CENTER OUT ↑ */
+
+/* ↓ MOVE IN BUTTON JOB GALLERY FROM CENTER IN ↓ */
+
+@-webkit-keyframes move_in_button_job_gallery_from_center_in {
+    
+    0% {
+        
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        opacity: 1;
+        
+    }
+    
+}
+
+@-moz-keyframes move_in_button_job_gallery_from_center_in {
+    
+    0% {
+        
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        opacity: 1;
+        
+    }
+    
+}
+
+@-o-keyframes move_in_button_job_gallery_from_center_in {
+    
+    0% {
+        
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        opacity: 1;
+        
+    }
+    
+}
+
+@keyframes move_in_button_job_gallery_from_center_in {
+    
+    0% {
+        
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        opacity: 1;
+        
+    }
+    
+}
+    
+.move_in_button_job_gallery_from_center_in {
+    
+    -webkit-animation-name: move_in_button_job_gallery_from_center_in;
+    -webkit-animation-duration: 1000ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_in_button_job_gallery_from_center_in;
+    -moz-animation-duration: 1000ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_in_button_job_gallery_from_center_in;
+    -o-animation-duration: 1000ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_in_button_job_gallery_from_center_in;
+    animation-duration: 1000ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE IN BUTTON JOB GALLERY FROM CENTER IN ↑ */
+
+/* ↓ MOVE OUT BUTTON JOB GALLERY FROM CENTER IN ↓ */
+
+@-webkit-keyframes move_out_button_job_gallery_from_center_in {
+    
+    0% {
+        
+        opacity: 1;  
+          
+    }
+    
+    100% {
+        
+        opacity: 0;
+        
+    }
+    
+}
+
+@-moz-keyframes move_out_button_job_gallery_from_center_in {
+    
+    0% {
+        
+        opacity: 1;  
+          
+    }
+    
+    100% {
+        
+        opacity: 0;
+        
+    }
+    
+}
+
+@-o-keyframes move_out_button_job_gallery_from_center_in {
+    
+    0% {
+        
+        opacity: 1;  
+          
+    }
+    
+    100% {
+        
+        opacity: 0;
+        
+    }
+    
+}
+
+@keyframes move_out_button_job_gallery_from_center_in {
+    
+    0% {
+        
+        opacity: 1;  
+          
+    }
+    
+    100% {
+        
+        opacity: 0;
+        
+    }
+    
+}
+    
+.move_out_button_job_gallery_from_center_in {
+    
+    -webkit-animation-name: move_out_button_job_gallery_from_center_in;
+    -webkit-animation-duration: 500ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_out_button_job_gallery_from_center_in;
+    -moz-animation-duration: 500ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_out_button_job_gallery_from_center_in;
+    -o-animation-duration: 500ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_out_button_job_gallery_from_center_in;
+    animation-duration: 500ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE OUT BUTTON JOB GALLERY FROM CENTER IN ↑ */
+
+/* ↓ MOVE IN AMOUNT FROM LEFT ↓ */
+
+@-webkit-keyframes move_in_amount_from_left {
+    
+    0% {
+        
+        left: 0%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 30%;
+        opacity: 1;
+        
+    }
+    
+}
+
+@-moz-keyframes move_in_amount_from_left {
+    
+    0% {
+        
+        left: 0%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 30%;
+        opacity: 1;
+        
+    }
+    
+}
+
+@-o-keyframes move_in_amount_from_left {
+    
+    0% {
+        
+        left: 0%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 30%;
+        opacity: 1;
+        
+    }
+    
+}
+
+@keyframes move_in_amount_from_left {
+    
+    0% {
+        
+        left: 0%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 30%;
+        opacity: 1;
+        
+    }
+    
+}
+    
+.move_in_amount_from_left {
+    
+    -webkit-animation-name: move_in_amount_from_left;
+    -webkit-animation-duration: 1000ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_in_amount_from_left;
+    -moz-animation-duration: 1000ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_in_amount_from_left;
+    -o-animation-duration: 1000ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_in_amount_from_left;
+    animation-duration: 1000ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE IN AMOUNT FROM LEFT ↑ */
+
+/* ↓ MOVE OUT AMOUNT FROM LEFT ↓ */
+
+@-webkit-keyframes move_out_amount_from_left {
+    
+    0% {
+        
+        left: 30%;
+        opacity: 1;
+          
+    }
+    
+    100% {
+        
+        left: 100%;
+        opacity: 0;
+        
+    }
+    
+}
+
+@-moz-keyframes move_out_amount_from_left {
+    
+    0% {
+        
+        left: 30%;
+        opacity: 1;
+          
+    }
+    
+    100% {
+        
+        left: 100%;
+        opacity: 0;
+        
+    }
+    
+}
+
+@-o-keyframes move_out_amount_from_left {
+    
+    0% {
+        
+        left: 30%;
+        opacity: 1;
+          
+    }
+    
+    100% {
+        
+        left: 100%;
+        opacity: 0;
+        
+    }
+    
+}
+
+@keyframes move_out_amount_from_left {
+    
+    0% {
+        
+        left: 30%;
+        opacity: 1;
+          
+    }
+    
+    100% {
+        
+        left: 100%;
+        opacity: 0;
+        
+    }
+    
+}
+    
+.move_out_amount_from_left {
+    
+    -webkit-animation-name: move_out_amount_from_left;
+    -webkit-animation-duration: 500ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_out_amount_from_left;
+    -moz-animation-duration: 500ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_out_amount_from_left;
+    -o-animation-duration: 500ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_out_amount_from_left;
+    animation-duration: 500ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE OUT AMOUNT FROM LEFT ↑ */
+
+/* ↓ MOVE IN AMOUNT FROM RIGHT ↓ */
+
+@-webkit-keyframes move_in_amount_from_right {
+    
+    0% {
+        
+        left: 100%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 30%;
+        opacity: 1;
+        
+    }
+    
+}
+
+@-moz-keyframes move_in_amount_from_right {
+    
+    0% {
+        
+        left: 100%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 30%;
+        opacity: 1;
+        
+    }
+    
+}
+
+@-o-keyframes move_in_amount_from_right {
+    
+    0% {
+        
+        left: 100%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 30%;
+        opacity: 1;
+        
+    }
+    
+}
+
+@keyframes move_in_amount_from_right {
+    
+    0% {
+        
+        left: 100%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 30%;
+        opacity: 1;
+        
+    }
+    
+}
+    
+.move_in_amount_from_right {
+    
+    -webkit-animation-name: move_in_amount_from_right;
+    -webkit-animation-duration: 1000ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_in_amount_from_right;
+    -moz-animation-duration: 1000ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_in_amount_from_right;
+    -o-animation-duration: 1000ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_in_amount_from_right;
+    animation-duration: 1000ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE IN AMOUNT FROM RIGHT ↑ */
+
+/* ↓ MOVE OUT AMOUNT FROM RIGHT ↓ */
+
+@-webkit-keyframes move_out_amount_from_right {
+    
+    0% {
+        
+        left: 30%;
+        opacity: 1; 
+          
+    }
+    
+    100% {
+        
+        left: 0%;
+        opacity: 0;
+        
+    }
+    
+}
+
+@-moz-keyframes move_out_amount_from_right {
+    
+    0% {
+        
+        left: 30%;
+        opacity: 1; 
+          
+    }
+    
+    100% {
+        
+        left: 0%;
+        opacity: 0;
+        
+    }
+    
+}
+
+@-o-keyframes move_out_amount_from_right {
+    
+    0% {
+        
+        left: 30%;
+        opacity: 1; 
+          
+    }
+    
+    100% {
+        
+        left: 0%;
+        opacity: 0;
+        
+    }
+    
+}
+
+@keyframes move_out_amount_from_right {
+    
+    0% {
+        
+        left: 30%;
+        opacity: 1; 
+          
+    }
+    
+    100% {
+        
+        left: 0%;
+        opacity: 0;
+        
+    }
+    
+}
+    
+.move_out_amount_from_right {
+    
+    -webkit-animation-name: move_out_amount_from_right;
+    -webkit-animation-duration: 500ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_out_amount_from_right;
+    -moz-animation-duration: 500ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_out_amount_from_right;
+    -o-animation-duration: 500ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_out_amount_from_right;
+    animation-duration: 500ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE OUT AMOUNT FROM RIGHT  ↑ */
+
+/* ↓ MOVE IN AMOUNT FROM CENTER OUT ↓ */
+
+@-webkit-keyframes move_in_amount_from_center_out {
+    
+    0% {
+        
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        opacity: 1;
+        
+    }
+    
+}
+
+@-moz-keyframes move_in_amount_from_center_out {
+    
+    0% {
+        
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        opacity: 1;
+        
+    }
+    
+}
+
+@-o-keyframes move_in_amount_from_center_out {
+    
+    0% {
+        
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        opacity: 1;
+        
+    }
+    
+}
+
+@keyframes move_in_amount_from_center_out {
+    
+    0% {
+        
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        opacity: 1;
+        
+    }
+    
+}
+    
+.move_in_amount_from_center_out {
+    
+    -webkit-animation-name: move_in_amount_from_center_out;
+    -webkit-animation-duration: 1000ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_in_amount_from_center_out;
+    -moz-animation-duration: 1000ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_in_amount_from_center_out;
+    -o-animation-duration: 1000ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_in_amount_from_center_out;
+    animation-duration: 1000ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE IN AMOUNT FROM CENTER OUT ↑ */
+
+/* ↓ MOVE OUT AMOUNT FROM CENTER OUT ↓ */
+
+@-webkit-keyframes move_out_amount_from_center_out {
+    
+    0% {
+        
+        opacity: 1; 
+          
+    }
+    
+    100% {
+        
+        opacity: 0;
+        
+    }
+    
+}
+
+@-moz-keyframes move_out_amount_from_center_out {
+    
+    0% {
+        
+        opacity: 1; 
+          
+    }
+    
+    100% {
+        
+        opacity: 0;
+        
+    }
+    
+}
+
+@-o-keyframes move_out_amount_from_center_out {
+    
+    0% {
+        
+        opacity: 1; 
+          
+    }
+    
+    100% {
+        
+        opacity: 0;
+        
+    }
+    
+}
+
+@keyframes move_out_amount_from_center_out {
+    
+    0% {
+        
+        opacity: 1; 
+          
+    }
+    
+    100% {
+        
+        opacity: 0;
+        
+    }
+    
+}
+    
+.move_out_amount_from_center_out {
+    
+    -webkit-animation-name: move_out_amount_from_center_out;
+    -webkit-animation-duration: 500ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_out_amount_from_center_out;
+    -moz-animation-duration: 500ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_out_amount_from_center_out;
+    -o-animation-duration: 500ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_out_amount_from_center_out;
+    animation-duration: 500ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE OUT AMOUNT FROM CENTER OUT ↑ */
+
+/* ↓ MOVE IN AMOUNT FROM CENTER IN ↓ */
+
+@-webkit-keyframes move_in_amount_from_center_in {
+    
+    0% {
+        
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        opacity: 1;
+        
+    }
+    
+}
+
+@-moz-keyframes move_in_amount_from_center_in {
+    
+    0% {
+        
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        opacity: 1;
+        
+    }
+    
+}
+
+@-o-keyframes move_in_amount_from_center_in {
+    
+    0% {
+        
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        opacity: 1;
+        
+    }
+    
+}
+
+@keyframes move_in_amount_from_center_in {
+    
+    0% {
+        
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        opacity: 1;
+        
+    }
+    
+}
+    
+.move_in_amount_from_center_in {
+    
+    -webkit-animation-name: move_in_amount_from_center_in;
+    -webkit-animation-duration: 1000ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_in_amount_from_center_in;
+    -moz-animation-duration: 1000ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_in_amount_from_center_in;
+    -o-animation-duration: 1000ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_in_amount_from_center_in;
+    animation-duration: 1000ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE IN AMOUNT FROM CENTER IN ↑ */
+
+/* ↓ MOVE OUT AMOUNT FROM CENTER IN ↓ */
+
+@-webkit-keyframes move_out_amount_from_center_in {
+    
+    0% {
+        
+        opacity: 1;  
+          
+    }
+    
+    100% {
+        
+        opacity: 0;
+        
+    }
+    
+}
+
+@-moz-keyframes move_out_amount_from_center_in {
+    
+    0% {
+        
+        opacity: 1;  
+          
+    }
+    
+    100% {
+        
+        opacity: 0;
+        
+    }
+    
+}
+
+@-o-keyframes move_out_amount_from_center_in {
+    
+    0% {
+        
+        opacity: 1;  
+          
+    }
+    
+    100% {
+        
+        opacity: 0;
+        
+    }
+    
+}
+
+@keyframes move_out_amount_from_center_in {
+    
+    0% {
+        
+        opacity: 1;  
+          
+    }
+    
+    100% {
+        
+        opacity: 0;
+        
+    }
+    
+}
+    
+.move_out_amount_from_center_in {
+    
+    -webkit-animation-name: move_out_amount_from_center_in;
+    -webkit-animation-duration: 500ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_out_amount_from_center_in;
+    -moz-animation-duration: 500ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_out_amount_from_center_in;
+    -o-animation-duration: 500ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_out_amount_from_center_in;
+    animation-duration: 500ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE OUT AMOUNT FROM CENTER IN ↑ */
+
+/* ↓ MOVE IN LOCK FROM LEFT ↓ */
+
+@-webkit-keyframes move_in_lock_from_left {
+    
+    0% {
+        
+        left: 0%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 70%;
+        opacity: 1;
+        
+    }
+    
+}
+
+@-moz-keyframes move_in_lock_from_left {
+    
+    0% {
+        
+        left: 0%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 70%;
+        opacity: 1;
+        
+    }
+    
+}
+
+@-o-keyframes move_in_lock_from_left {
+    
+    0% {
+        
+        left: 0%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 70%;
+        opacity: 1;
+        
+    }
+    
+}
+
+@keyframes move_in_lock_from_left {
+    
+    0% {
+        
+        left: 0%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 70%;
+        opacity: 1;
+        
+    }
+    
+}
+    
+.move_in_lock_from_left {
+    
+    -webkit-animation-name: move_in_lock_from_left;
+    -webkit-animation-duration: 1000ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_in_lock_from_left;
+    -moz-animation-duration: 1000ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_in_lock_from_left;
+    -o-animation-duration: 1000ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_in_lock_from_left;
+    animation-duration: 1000ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE IN LOCK FROM LEFT ↑ */
+
+/* ↓ MOVE OUT LOCK FROM LEFT ↓ */
+
+@-webkit-keyframes move_out_lock_from_left {
+    
+    0% {
+        
+        left: 70%;
+        opacity: 1;
+          
+    }
+    
+    100% {
+        
+        left: 100%;
+        opacity: 0;
+        
+    }
+    
+}
+
+@-moz-keyframes move_out_lock_from_left {
+    
+    0% {
+        
+        left: 70%;
+        opacity: 1;
+          
+    }
+    
+    100% {
+        
+        left: 100%;
+        opacity: 0;
+        
+    }
+    
+}
+
+@-o-keyframes move_out_lock_from_left {
+    
+    0% {
+        
+        left: 70%;
+        opacity: 1;
+          
+    }
+    
+    100% {
+        
+        left: 100%;
+        opacity: 0;
+        
+    }
+    
+}
+
+@keyframes move_out_lock_from_left {
+    
+    0% {
+        
+        left: 70%;
+        opacity: 1;
+          
+    }
+    
+    100% {
+        
+        left: 100%;
+        opacity: 0;
+        
+    }
+    
+}
+    
+.move_out_lock_from_left {
+    
+    -webkit-animation-name: move_out_lock_from_left;
+    -webkit-animation-duration: 500ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_out_lock_from_left;
+    -moz-animation-duration: 500ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_out_lock_from_left;
+    -o-animation-duration: 500ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_out_lock_from_left;
+    animation-duration: 500ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE OUT LOCK FROM LEFT ↑ */
+
+/* ↓ MOVE IN LOCK FROM RIGHT ↓ */
+
+@-webkit-keyframes move_in_lock_from_right {
+    
+    0% {
+        
+        left: 100%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 70%;
+        opacity: 1;
+        
+    }
+    
+}
+
+@-moz-keyframes move_in_lock_from_right {
+    
+    0% {
+        
+        left: 100%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 70%;
+        opacity: 1;
+        
+    }
+    
+}
+
+@-o-keyframes move_in_lock_from_right {
+    
+    0% {
+        
+        left: 100%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 70%;
+        opacity: 1;
+        
+    }
+    
+}
+
+@keyframes move_in_lock_from_right {
+    
+    0% {
+        
+        left: 100%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 70%;
+        opacity: 1;
+        
+    }
+    
+}
+    
+.move_in_lock_from_right {
+    
+    -webkit-animation-name: move_in_lock_from_right;
+    -webkit-animation-duration: 1000ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_in_lock_from_right;
+    -moz-animation-duration: 1000ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_in_lock_from_right;
+    -o-animation-duration: 1000ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_in_lock_from_right;
+    animation-duration: 1000ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE IN LOCK FROM RIGHT ↑ */
+
+/* ↓ MOVE OUT LOCK FROM RIGHT ↓ */
+
+@-webkit-keyframes move_out_lock_from_right {
+    
+    0% {
+        
+        left: 70%;
+        opacity: 1; 
+          
+    }
+    
+    100% {
+        
+        left: 0%;
+        opacity: 0;
+        
+    }
+    
+}
+
+@-moz-keyframes move_out_lock_from_right {
+    
+    0% {
+        
+        left: 70%;
+        opacity: 1; 
+          
+    }
+    
+    100% {
+        
+        left: 0%;
+        opacity: 0;
+        
+    }
+    
+}
+
+@-o-keyframes move_out_lock_from_right {
+    
+    0% {
+        
+        left: 70%;
+        opacity: 1; 
+          
+    }
+    
+    100% {
+        
+        left: 0%;
+        opacity: 0;
+        
+    }
+    
+}
+
+@keyframes move_out_lock_from_right {
+    
+    0% {
+        
+        left: 70%;
+        opacity: 1; 
+          
+    }
+    
+    100% {
+        
+        left: 0%;
+        opacity: 0;
+        
+    }
+    
+}
+    
+.move_out_lock_from_right {
+    
+    -webkit-animation-name: move_out_lock_from_right;
+    -webkit-animation-duration: 500ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_out_lock_from_right;
+    -moz-animation-duration: 500ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_out_lock_from_right;
+    -o-animation-duration: 500ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_out_lock_from_right;
+    animation-duration: 500ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE OUT LOCK FROM RIGHT ↑ */
+
+/* ↓ MOVE IN LOCK FROM CENTER OUT ↓ */
+
+@-webkit-keyframes move_in_lock_from_center_out {
+    
+    0% {
+        
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        opacity: 1;
+        
+    }
+    
+}
+
+@-moz-keyframes move_in_lock_from_center_out {
+    
+    0% {
+        
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        opacity: 1;
+        
+    }
+    
+}
+
+@-o-keyframes move_in_lock_from_center_out {
+    
+    0% {
+        
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        opacity: 1;
+        
+    }
+    
+}
+
+@keyframes move_in_lock_from_center_out {
+    
+    0% {
+        
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        opacity: 1;
+        
+    }
+    
+}
+    
+.move_in_lock_from_center_out {
+    
+    -webkit-animation-name: move_in_lock_from_center_out;
+    -webkit-animation-duration: 1000ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_in_lock_from_center_out;
+    -moz-animation-duration: 1000ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_in_lock_from_center_out;
+    -o-animation-duration: 1000ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_in_lock_from_center_out;
+    animation-duration: 1000ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE IN LOCK FROM CENTER OUT ↑ */
+
+/* ↓ MOVE OUT LOCK FROM CENTER OUT ↓ */
+
+@-webkit-keyframes move_out_lock_from_center_out {
+    
+    0% {
+        
+        opacity: 1; 
+          
+    }
+    
+    100% {
+        
+        opacity: 0;
+        
+    }
+    
+}
+
+@-moz-keyframes move_out_lock_from_center_out {
+    
+    0% {
+        
+        opacity: 1; 
+          
+    }
+    
+    100% {
+        
+        opacity: 0;
+        
+    }
+    
+}
+
+@-o-keyframes move_out_lock_from_center_out {
+    
+    0% {
+        
+        opacity: 1; 
+          
+    }
+    
+    100% {
+        
+        opacity: 0;
+        
+    }
+    
+}
+
+@keyframes move_out_lock_from_center_out {
+    
+    0% {
+        
+        opacity: 1; 
+          
+    }
+    
+    100% {
+        
+        opacity: 0;
+        
+    }
+    
+}
+    
+.move_out_lock_from_center_out {
+    
+    -webkit-animation-name: move_out_lock_from_center_out;
+    -webkit-animation-duration: 500ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_out_lock_from_center_out;
+    -moz-animation-duration: 500ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_out_lock_from_center_out;
+    -o-animation-duration: 500ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_out_lock_from_center_out;
+    animation-duration: 500ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE OUT LOCK FROM CENTER OUT ↑ */
+
+/* ↓ MOVE IN LOCK FROM CENTER IN ↓ */
+
+@-webkit-keyframes move_in_lock_from_center_in {
+    
+    0% {
+        
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        opacity: 1;
+        
+    }
+    
+}
+
+@-moz-keyframes move_in_lock_from_center_in {
+    
+    0% {
+        
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        opacity: 1;
+        
+    }
+    
+}
+
+@-o-keyframes move_in_lock_from_center_in {
+    
+    0% {
+        
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        opacity: 1;
+        
+    }
+    
+}
+
+@keyframes move_in_lock_from_center_in {
+    
+    0% {
+        
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        opacity: 1;
+        
+    }
+    
+}
+    
+.move_in_lock_from_center_in {
+    
+    -webkit-animation-name: move_in_lock_from_center_in;
+    -webkit-animation-duration: 1000ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_in_lock_from_center_in;
+    -moz-animation-duration: 1000ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_in_lock_from_center_in;
+    -o-animation-duration: 1000ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_in_lock_from_center_in;
+    animation-duration: 1000ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE IN LOCK FROM CENTER IN ↑ */
+
+/* ↓ MOVE OUT LOCK FROM CENTER IN ↓ */
+
+@-webkit-keyframes move_out_lock_from_center_in {
+    
+    0% {
+        
+        opacity: 1;  
+          
+    }
+    
+    100% {
+        
+        opacity: 0;
+        
+    }
+    
+}
+
+@-moz-keyframes move_out_lock_from_center_in {
+    
+    0% {
+        
+        opacity: 1;  
+          
+    }
+    
+    100% {
+        
+        opacity: 0;
+        
+    }
+    
+}
+
+@-o-keyframes move_out_lock_from_center_in {
+    
+    0% {
+        
+        opacity: 1;  
+          
+    }
+    
+    100% {
+        
+        opacity: 0;
+        
+    }
+    
+}
+
+@keyframes move_out_lock_from_center_in {
+    
+    0% {
+        
+        opacity: 1;  
+          
+    }
+    
+    100% {
+        
+        opacity: 0;
+        
+    }
+    
+}
+    
+.move_out_lock_from_center_in {
+    
+    -webkit-animation-name: move_out_lock_from_center_in;
+    -webkit-animation-duration: 500ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_out_lock_from_center_in;
+    -moz-animation-duration: 500ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_out_lock_from_center_in;
+    -o-animation-duration: 500ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_out_lock_from_center_in;
+    animation-duration: 500ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE OUT LOCK FROM CENTER IN ↑ */
+
+/* ↓ MOVE IN FROM LEFT PIC ↓ */
+
+@-webkit-keyframes move_in_from_left_pic {
+    
+    0% {
+        
+        left: 0%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 50%;
+        opacity: 1;
+        
+    }
+    
+}
+
+@-moz-keyframes move_in_from_left_pic {
+    
+    0% {
+        
+        left: 0%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 50%;
+        opacity: 1;
+        
+    }
+    
+}
+
+@-o-keyframes move_in_from_left_pic {
+    
+    0% {
+        
+        left: 0%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 50%;
+        opacity: 1;
+        
+    }
+    
+}
+
+@keyframes move_in_from_left_pic {
+    
+    0% {
+        
+        left: 0%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 50%;
+        opacity: 1;
+        
+    }
+    
+}
+    
+.move_in_from_left_pic {
+    
+    -webkit-animation-name: move_in_from_left_pic;
+    -webkit-animation-duration: 1000ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_in_from_left_pic;
+    -moz-animation-duration: 1000ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_in_from_left_pic;
+    -o-animation-duration: 1000ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_in_from_left_pic;
+    animation-duration: 1000ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE IN FROM LEFT PIC ↑ */
+
+/* ↓ MOVE OUT FROM LEFT PIC ↓ */
+
+@-webkit-keyframes move_out_from_left_pic {
+    
+    0% {
+        
+        left: 50%;
+        opacity: 1;
+          
+    }
+    
+    100% {
+        
+        left: 100%;
+        opacity: 0;
+        
+    }
+    
+}
+
+@-moz-keyframes move_out_from_left_pic {
+    
+    0% {
+        
+        left: 50%;
+        opacity: 1;
+          
+    }
+    
+    100% {
+        
+        left: 100%;
+        opacity: 0;
+        
+    }
+    
+}
+
+@-o-keyframes move_out_from_left_pic {
+    
+    0% {
+        
+        left: 50%;
+        opacity: 1;
+          
+    }
+    
+    100% {
+        
+        left: 100%;
+        opacity: 0;
+        
+    }
+    
+}
+
+@keyframes move_out_from_left_pic {
+    
+    0% {
+        
+        left: 50%;
+        opacity: 1;
+          
+    }
+    
+    100% {
+        
+        left: 100%;
+        opacity: 0;
+        
+    }
+    
+}
+    
+.move_out_from_left_pic {
+    
+    -webkit-animation-name: move_out_from_left_pic;
+    -webkit-animation-duration: 500ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_out_from_left_pic;
+    -moz-animation-duration: 500ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_out_from_left_pic;
+    -o-animation-duration: 500ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_out_from_left_pic;
+    animation-duration: 500ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE OUT FROM LEFT PIC ↑ */
+
+/* ↓ MOVE IN FROM RIGHT PIC ↓ */
+
+@-webkit-keyframes move_in_from_right_pic {
+    
+    0% {
+        
+        left: 100%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 50%;
+        opacity: 1;
+        
+    }
+    
+}
+
+@-moz-keyframes move_in_from_right_pic {
+    
+    0% {
+        
+        left: 100%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 50%;
+        opacity: 1;
+        
+    }
+    
+}
+
+@-o-keyframes move_in_from_right_pic {
+    
+    0% {
+        
+        left: 100%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 50%;
+        opacity: 1;
+        
+    }
+    
+}
+
+@keyframes move_in_from_right_pic {
+    
+    0% {
+        
+        left: 100%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 50%;
+        opacity: 1;
+        
+    }
+    
+}
+    
+.move_in_from_right_pic {
+    
+    -webkit-animation-name: move_in_from_right_pic;
+    -webkit-animation-duration: 1000ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_in_from_right_pic;
+    -moz-animation-duration: 1000ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_in_from_right_pic;
+    -o-animation-duration: 1000ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_in_from_right_pic;
+    animation-duration: 1000ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE IN FROM RIGHT PIC ↑ */
+
+/* ↓ MOVE OUT FROM RIGHT PIC ↓ */
+
+@-webkit-keyframes move_out_from_right_pic {
+    
+    0% {
+        
+        left: 50%;
+        opacity: 1; 
+          
+    }
+    
+    100% {
+        
+        left: 0%;
+        opacity: 0;
+        
+    }
+    
+}
+
+@-moz-keyframes move_out_from_right_pic {
+    
+    0% {
+        
+        left: 50%;
+        opacity: 1; 
+          
+    }
+    
+    100% {
+        
+        left: 0%;
+        opacity: 0;
+        
+    }
+    
+}
+
+@-o-keyframes move_out_from_right_pic {
+    
+    0% {
+        
+        left: 50%;
+        opacity: 1; 
+          
+    }
+    
+    100% {
+        
+        left: 0%;
+        opacity: 0;
+        
+    }
+    
+}
+
+@keyframes move_out_from_right_pic {
+    
+    0% {
+        
+        left: 50%;
+        opacity: 1; 
+          
+    }
+    
+    100% {
+        
+        left: 0%;
+        opacity: 0;
+        
+    }
+    
+}
+    
+.move_out_from_right_pic {
+    
+    -webkit-animation-name: move_out_from_right_pic;
+    -webkit-animation-duration: 500ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_out_from_right_pic;
+    -moz-animation-duration: 500ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_out_from_right_pic;
+    -o-animation-duration: 500ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_out_from_right_pic;
+    animation-duration: 500ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE OUT FROM RIGHT PIC ↑ */
+
+/* ↓ MOVE IN FROM CENTER OUT ↓ */
+
+@-webkit-keyframes move_in_from_center_out {
+    
+    0% {
+        
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        opacity: 1;
+        
+    }
+    
+}
+
+@-moz-keyframes move_in_from_center_out {
+    
+    0% {
+        
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        opacity: 1;
+        
+    }
+    
+}
+
+@-o-keyframes move_in_from_center_out {
+    
+    0% {
+        
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        opacity: 1;
+        
+    }
+    
+}
+
+@keyframes move_in_from_center_out {
+    
+    0% {
+        
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        opacity: 1;
+        
+    }
+    
+}
+    
+.move_in_from_center_out {
+    
+    -webkit-animation-name: move_in_from_center_out;
+    -webkit-animation-duration: 1000ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_in_from_center_out;
+    -moz-animation-duration: 1000ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_in_from_center_out;
+    -o-animation-duration: 1000ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_in_from_center_out;
+    animation-duration: 1000ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE IN FROM CENTER OUT ↑ */
+
+/* ↓ MOVE OUT FROM CENTER OUT ↓ */
+
+@-webkit-keyframes move_out_from_center_out {
+    
+    0% {
+        
+        opacity: 1; 
+          
+    }
+    
+    100% {
+        
+        opacity: 0;
+        
+    }
+    
+}
+
+@-moz-keyframes move_out_from_center_out {
+    
+    0% {
+        
+        opacity: 1; 
+          
+    }
+    
+    100% {
+        
+        opacity: 0;
+        
+    }
+    
+}
+
+@-o-keyframes move_out_from_center_out {
+    
+    0% {
+        
+        opacity: 1; 
+          
+    }
+    
+    100% {
+        
+        opacity: 0;
+        
+    }
+    
+}
+
+@keyframes move_out_from_center_out {
+    
+    0% {
+        
+        opacity: 1; 
+          
+    }
+    
+    100% {
+        
+        opacity: 0;
+        
+    }
+    
+}
+    
+.move_out_from_center_out {
+    
+    -webkit-animation-name: move_out_from_center_out;
+    -webkit-animation-duration: 500ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_out_from_center_out;
+    -moz-animation-duration: 500ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_out_from_center_out;
+    -o-animation-duration: 500ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_out_from_center_out;
+    animation-duration: 500ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE OUT FROM CENTER OUT ↑ */
+
+/* ↓ MOVE IN FROM CENTER IN ↓ */
+
+@-webkit-keyframes move_in_from_center_in {
+    
+    0% {
+        
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        opacity: 1;
+        
+    }
+    
+}
+
+@-moz-keyframes move_in_from_center_in {
+    
+    0% {
+        
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        opacity: 1;
+        
+    }
+    
+}
+
+@-o-keyframes move_in_from_center_in {
+    
+    0% {
+        
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        opacity: 1;
+        
+    }
+    
+}
+
+@keyframes move_in_from_center_in {
+    
+    0% {
+        
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        opacity: 1;
+        
+    }
+    
+}
+    
+.move_in_from_center_in {
+    
+    -webkit-animation-name: move_in_from_center_in;
+    -webkit-animation-duration: 1000ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_in_from_center_in;
+    -moz-animation-duration: 1000ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_in_from_center_in;
+    -o-animation-duration: 1000ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_in_from_center_in;
+    animation-duration: 1000ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE IN FROM CENTER IN ↑ */
+
+/* ↓ MOVE OUT FROM CENTER IN ↓ */
+
+@-webkit-keyframes move_out_from_center_in {
+    
+    0% {
+        
+        opacity: 1;  
+          
+    }
+    
+    100% {
+        
+        opacity: 0;
+        
+    }
+    
+}
+
+@-moz-keyframes move_out_from_center_in {
+    
+    0% {
+        
+        opacity: 1;  
+          
+    }
+    
+    100% {
+        
+        opacity: 0;
+        
+    }
+    
+}
+
+@-o-keyframes move_out_from_center_in {
+    
+    0% {
+        
+        opacity: 1;  
+          
+    }
+    
+    100% {
+        
+        opacity: 0;
+        
+    }
+    
+}
+
+@keyframes move_out_from_center_in {
+    
+    0% {
+        
+        opacity: 1;  
+          
+    }
+    
+    100% {
+        
+        opacity: 0;
+        
+    }
+    
+}
+    
+.move_out_from_center_in {
+    
+    -webkit-animation-name: move_out_from_center_in;
+    -webkit-animation-duration: 500ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_out_from_center_in;
+    -moz-animation-duration: 500ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_out_from_center_in;
+    -o-animation-duration: 500ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_out_from_center_in;
+    animation-duration: 500ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE OUT FROM CENTER IN ↑ */
+
+/* ↓ MOVE IN FROM ABOVE ↓ */
+
+@-webkit-keyframes move_in_from_above {
+    
+    0% {
+        
+        top: 0%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        top: 50%;
+        opacity: 1;
+        
+    }
+    
+}
+
+@-moz-keyframes move_in_from_above {
+    
+    0% {
+        
+        top: 0%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        top: 50%;
+        opacity: 1;
+        
+    }
+    
+}
+
+@-o-keyframes move_in_from_above {
+    
+    0% {
+        
+        top: 0%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        top: 50%;
+        opacity: 1;
+        
+    }
+    
+}
+
+@keyframes move_in_from_above {
+    
+    0% {
+        
+        top: 0%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        top: 50%;
+        opacity: 1;
+        
+    }
+    
+}
+    
+.move_in_from_above {
+    
+    -webkit-animation-name: move_in_from_above;
+    -webkit-animation-duration: 1000ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_in_from_above;
+    -moz-animation-duration: 1000ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_in_from_above;
+    -o-animation-duration: 1000ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_in_from_above;
+    animation-duration: 1000ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE IN FROM ABOVE ↑ */
+
+/* ↓ MOVE OUT FROM ABOVE ↓ */
+
+@-webkit-keyframes move_out_from_above {
+    
+    0% {
+        
+        top: 50%;
+        opacity: 1;
+          
+    }
+    
+    100% {
+        
+        top: 100%;
+        opacity: 0;
+        
+    }
+    
+}
+
+@-moz-keyframes move_out_from_above {
+    
+    0% {
+        
+        top: 50%;
+        opacity: 1;
+          
+    }
+    
+    100% {
+        
+        top: 100%;
+        opacity: 0;
+        
+    }
+    
+}
+
+@-o-keyframes move_out_from_above {
+    
+    0% {
+        
+        top: 50%;
+        opacity: 1;
+          
+    }
+    
+    100% {
+        
+        top: 100%;
+        opacity: 0;
+        
+    }
+    
+}
+
+@keyframes move_out_from_above {
+    
+    0% {
+        
+        top: 50%;
+        opacity: 1;
+          
+    }
+    
+    100% {
+        
+        top: 100%;
+        opacity: 0;
+        
+    }
+    
+}
+    
+.move_out_from_above {
+    
+    -webkit-animation-name: move_out_from_above;
+    -webkit-animation-duration: 500ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_out_from_above;
+    -moz-animation-duration: 500ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_out_from_above;
+    -o-animation-duration: 500ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_out_from_above;
+    animation-duration: 500ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE OUT FROM ABOVE ↑ */
+
+/* ↓ MOVE IN FROM BELOW ↓ */
+
+@-webkit-keyframes move_in_from_below {
+    
+    0% {
+        
+        top: 100%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        top: 50%;
+        opacity: 1;
+        
+    }
+    
+}
+
+@-moz-keyframes move_in_from_below {
+    
+    0% {
+        
+        top: 100%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        top: 50%;
+        opacity: 1;
+        
+    }
+    
+}
+
+@-o-keyframes move_in_from_below {
+    
+    0% {
+        
+        top: 100%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        top: 50%;
+        opacity: 1;
+        
+    }
+    
+}
+
+@keyframes move_in_from_below {
+    
+    0% {
+        
+        top: 100%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        top: 50%;
+        opacity: 1;
+        
+    }
+    
+}
+    
+.move_in_from_below {
+    
+    -webkit-animation-name: move_in_from_below;
+    -webkit-animation-duration: 1000ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_in_from_below;
+    -moz-animation-duration: 1000ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_in_from_below;
+    -o-animation-duration: 1000ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_in_from_below;
+    animation-duration: 1000ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE IN FROM BELOW ↑ */
+
+/* ↓ MOVE OUT FROM BELOW ↓ */
+
+@-webkit-keyframes move_out_from_below {
+    
+    0% {
+        
+        top: 50%;
+        opacity: 1;
+          
+    }
+    
+    100% {
+        
+        top: 0%;
+        opacity: 0;
+        
+    }
+    
+}
+
+@-moz-keyframes move_out_from_below {
+    
+    0% {
+        
+        top: 50%;
+        opacity: 1;
+          
+    }
+    
+    100% {
+        
+        top: 0%;
+        opacity: 0;
+        
+    }
+    
+}
+
+@-o-keyframes move_out_from_below {
+    
+    0% {
+        
+        top: 50%;
+        opacity: 1;
+          
+    }
+    
+    100% {
+        
+        top: 0%;
+        opacity: 0;
+        
+    }
+    
+}
+
+@keyframes move_out_from_below {
+    
+    0% {
+        
+        top: 50%;
+        opacity: 1;
+          
+    }
+    
+    100% {
+        
+        top: 0%;
+        opacity: 0;
+        
+    }
+    
+}
+    
+.move_out_from_below {
+    
+    -webkit-animation-name: move_out_from_below;
+    -webkit-animation-duration: 500ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_out_from_below;
+    -moz-animation-duration: 500ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_out_from_below;
+    -o-animation-duration: 500ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_out_from_below;
+    animation-duration: 500ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE OUT FROM BELOW ↑ */
+
+/* ↓ MOVE UP AND DOWN CIRCLE ↓ */
+
+@-webkit-keyframes move_up_and_down_circle {
+    
+    0% {
+        
+        top: 50%;
+          
+    }
+    
+    15% {
+        
+        top: 44.26388888888889%;
+          
+    }
+    
+    50% {
+        
+        top: 56.83475694444444%;
+        
+    }
+    
+    100% {
+        
+        top: 50%;
+        
+    }
+    
+}
+
+@-moz-keyframes move_up_and_down_circle {
+    
+    0% {
+        
+        top: 50%;
+          
+    }
+    
+    15% {
+        
+        top: 44.26388888888889%;
+          
+    }
+    
+    50% {
+        
+        top: 56.83475694444444%;
+        
+    }
+    
+    100% {
+        
+        top: 50%;
+        
+    }
+    
+}
+
+@-o-keyframes move_up_and_down_circle {
+    
+    0% {
+        
+        top: 50%;
+          
+    }
+    
+    15% {
+        
+        top: 44.26388888888889%;
+          
+    }
+    
+    50% {
+        
+        top: 56.83475694444444%;
+        
+    }
+    
+    100% {
+        
+        top: 50%;
+        
+    }
+    
+}
+
+@keyframes move_up_and_down_circle {
+    
+    0% {
+        
+        top: 50%;
+          
+    }
+    
+    15% {
+        
+        top: 44.26388888888889%;
+          
+    }
+    
+    50% {
+        
+        top: 56.83475694444444%;
+        
+    }
+    
+    100% {
+        
+        top: 50%;
+        
+    }
+    
+}
+    
+.move_up_and_down_circle {
+    
+    -webkit-animation-name: move_up_and_down_circle;
+    -webkit-animation-duration: 800ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_up_and_down_circle;
+    -moz-animation-duration: 800ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_up_and_down_circle;
+    -o-animation-duration: 800ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_up_and_down_circle;
+    animation-duration: 800ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+.move_up_and_down_circle_forever {
+    
+    -webkit-animation-name: move_up_and_down_circle;
+    -webkit-animation-duration: 800ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_up_and_down_circle;
+    -moz-animation-duration: 800ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_up_and_down_circle;
+    -o-animation-duration: 800ms;
+    -o-animation-iteration-count: infinite;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_up_and_down_circle;
+    animation-duration: 800ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE UP AND DOWN CIRCLE ↑ */
+
+/* ↓ MOVE UP AND DOWN NAME ↓ */
+
+@-webkit-keyframes move_up_and_down_name {
+    
+    0% {
+        
+        top: 50%;
+          
+    }
+    
+    30% {
+        
+        top: 44.26388888888889%;
+          
+    }
+    
+    70% {
+        
+        top: 58.47222222222222%;
+        
+    } 
+    
+    100% {
+        
+        top: 50%;
+        
+    }
+    
+}
+
+@-moz-keyframes move_up_and_down_name {
+    
+    0% {
+        
+        top: 50%;
+          
+    }
+    
+    30% {
+        
+        top: 44.26388888888889%;
+          
+    }
+    
+    70% {
+        
+        top: 58.47222222222222%;
+        
+    }
+    
+    100% {
+        
+        top: 50%;
+        
+    }
+    
+}
+
+@-o-keyframes move_up_and_down_name {
+    
+    0% {
+        
+        top: 50%;
+          
+    }
+    
+    30% {
+        
+        top: 44.26388888888889%;
+          
+    }
+    
+    70% {
+        
+        top: 58.47222222222222%;
+        
+    }
+    
+    100% {
+        
+        top: 50%;
+        
+    }
+    
+}
+
+@keyframes move_up_and_down_name {
+    
+    0% {
+        
+        top: 50%;
+          
+    }
+    
+    30% {
+        
+        top: 44.26388888888889%;
+          
+    }
+    
+    70% {
+        
+        top: 58.47222222222222%;
+        
+    }
+    
+    100% {
+        
+        top: 50%;
+        
+    }
+    
+}
+    
+.move_up_and_down_name {
+    
+    -webkit-animation-name: move_up_and_down_name;
+    -webkit-animation-duration: 800ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_up_and_down_name;
+    -moz-animation-duration: 800ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_up_and_down_name;
+    -o-animation-duration: 800ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_up_and_down_name;
+    animation-duration: 800ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+.move_up_and_down_name_forever {
+    
+    -webkit-animation-name: move_up_and_down_name;
+    -webkit-animation-duration: 800ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_up_and_down_name;
+    -moz-animation-duration: 800ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_up_and_down_name;
+    -o-animation-duration: 800ms;
+    -o-animation-iteration-count: infinite;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_up_and_down_name;
+    animation-duration: 800ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE UP AND DOWN NAME ↑ */
+
+/* ↓ MOVE UP AND DOWN CIRCLE FINAL ↓ */
+
+@-webkit-keyframes move_up_and_down_circle_final {
+    
+    0% {
+        
+        top: 42.5053125%;
+          
+    }
+    
+    15% {
+        
+        top: 36.7692125%;
+          
+    }
+    
+    50% {
+        
+        top: 49.34006944444444%;
+        
+    }
+    
+    100% {
+        
+        top: 42.5053125%;
+        
+    }
+    
+}
+
+@-moz-keyframes move_up_and_down_circle_final {
+    
+    0% {
+        
+        top: 42.5053125%;
+          
+    }
+    
+    15% {
+        
+        top: 36.7692125%;
+          
+    }
+    
+    50% {
+        
+        top: 49.34006944444444%;
+        
+    }
+    
+    100% {
+        
+        top: 42.5053125%;
+        
+    }
+    
+}
+
+@-o-keyframes move_up_and_down_circle_final {
+    
+    0% {
+        
+        top: 42.5053125%;
+          
+    }
+    
+    15% {
+        
+        top: 36.7692125%;
+          
+    }
+    
+    50% {
+        
+        top: 49.34006944444444%;
+        
+    }
+    
+    100% {
+        
+        top: 42.5053125%;
+        
+    }
+    
+}
+
+@keyframes move_up_and_down_circle_final {
+    
+    0% {
+        
+        top: 42.5053125%;
+          
+    }
+    
+    15% {
+        
+        top: 36.7692125%;
+          
+    }
+    
+    50% {
+        
+        top: 49.34006944444444%;
+        
+    }
+    
+    100% {
+        
+        top: 42.5053125%;
+        
+    }
+    
+}
+    
+.move_up_and_down_circle_final {
+    
+    -webkit-animation-name: move_up_and_down_circle_final;
+    -webkit-animation-duration: 800ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_up_and_down_circle_final;
+    -moz-animation-duration: 800ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_up_and_down_circle_final;
+    -o-animation-duration: 800ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_up_and_down_circle_final;
+    animation-duration: 800ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+.move_up_and_down_circle_final_forever {
+    
+    -webkit-animation-name: move_up_and_down_circle_final;
+    -webkit-animation-duration: 800ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_up_and_down_circle_final;
+    -moz-animation-duration: 800ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_up_and_down_circle_final;
+    -o-animation-duration: 800ms;
+    -o-animation-iteration-count: infinite;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_up_and_down_circle_final;
+    animation-duration: 800ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE UP AND DOWN CIRCLE FINAL ↑ */
+
+/* ↓ MOVE UP AND DOWN NAME FINAL ↓ */
+
+@-webkit-keyframes move_up_and_down_name_final {
+    
+    0% {
+        
+        top: 42.5053125%;
+          
+    }
+    
+    15% {
+        
+        top: 36.7692125%;
+          
+    }
+    
+    70% {
+        
+        top: 50.97753472222222%;
+        
+    } 
+    
+    100% {
+        
+        top: 42.5053125%;
+        
+    }
+    
+}
+
+@-moz-keyframes move_up_and_down_name_final {
+    
+    0% {
+        
+        top: 42.5053125%;
+          
+    }
+    
+    15% {
+        
+        top: 36.7692125%;
+          
+    }
+    
+    70% {
+        
+        top: 50.97753472222222%;
+        
+    } 
+    
+    100% {
+        
+        top: 42.5053125%;
+        
+    }
+    
+}
+
+@-o-keyframes move_up_and_down_name_final {
+    
+    0% {
+        
+        top: 42.5053125%;
+          
+    }
+    
+    15% {
+        
+        top: 36.7692125%;
+          
+    }
+    
+    70% {
+        
+        top: 50.97753472222222%;
+        
+    } 
+    
+    100% {
+        
+        top: 42.5053125%;
+        
+    }
+    
+}
+
+@keyframes move_up_and_down_name_final {
+    
+    0% {
+        
+        top: 42.5053125%;
+          
+    }
+    
+    15% {
+        
+        top: 36.7692125%;
+          
+    }
+    
+    70% {
+        
+        top: 50.97753472222222%;
+        
+    } 
+    
+    100% {
+        
+        top: 42.5053125%;
+        
+    }
+    
+}
+    
+.move_up_and_down_name_final {
+    
+    -webkit-animation-name: move_up_and_down_name_final;
+    -webkit-animation-duration: 800ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_up_and_down_name_final;
+    -moz-animation-duration: 800ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_up_and_down_name_final;
+    -o-animation-duration: 800ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_up_and_down_name_final;
+    animation-duration: 800ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+.move_up_and_down_name_final_forever {
+    
+    -webkit-animation-name: move_up_and_down_name_final;
+    -webkit-animation-duration: 800ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_up_and_down_name_final;
+    -moz-animation-duration: 800ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_up_and_down_name_final;
+    -o-animation-duration: 800ms;
+    -o-animation-iteration-count: infinite;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_up_and_down_name_final;
+    animation-duration: 800ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE UP AND DOWN NAME FINAL ↑ */
+
+/* ↓ MOVE LOCKED ↓ */
+
+@-webkit-keyframes move_locked {
+    
+    0% {
+        
+        left: 70%;
+          
+    }
+    
+    12.5% {
+        
+        left: 69%;
+          
+    }
+    
+    25% {
+        
+        left: 70%;
+          
+    }
+    
+    37.5% {
+        
+        left: 71%;
+          
+    }
+    
+    50% {
+        
+        left: 70%;
+        
+    }
+    
+    62.5% {
+        
+        left: 69%;
+          
+    }
+    
+    75% {
+        
+        left: 70%;
+          
+    }
+    
+    87.5% {
+        
+        left: 71%;
+          
+    }
+    
+    100% {
+        
+        left: 70%;
+        
+    }
+    
+}
+
+@-moz-keyframes move_locked {
+    
+    0% {
+        
+        left: 70%;
+          
+    }
+    
+    12.5% {
+        
+        left: 69%;
+          
+    }
+    
+    25% {
+        
+        left: 70%;
+          
+    }
+    
+    37.5% {
+        
+        left: 71%;
+          
+    }
+    
+    50% {
+        
+        left: 70%;
+        
+    }
+    
+    62.5% {
+        
+        left: 69%;
+          
+    }
+    
+    75% {
+        
+        left: 70%;
+          
+    }
+    
+    87.5% {
+        
+        left: 71%;
+          
+    }
+    
+    100% {
+        
+        left: 70%;
+        
+    }
+    
+}
+
+@-o-keyframes move_locked {
+    
+    0% {
+        
+        left: 70%;
+          
+    }
+    
+    12.5% {
+        
+        left: 69%;
+          
+    }
+    
+    25% {
+        
+        left: 70%;
+          
+    }
+    
+    37.5% {
+        
+        left: 71%;
+          
+    }
+    
+    50% {
+        
+        left: 70%;
+        
+    }
+    
+    62.5% {
+        
+        left: 69%;
+          
+    }
+    
+    75% {
+        
+        left: 70%;
+          
+    }
+    
+    87.5% {
+        
+        left: 71%;
+          
+    }
+    
+    100% {
+        
+        left: 70%;
+        
+    }
+    
+}
+
+@keyframes move_locked {
+    
+    0% {
+        
+        left: 70%;
+          
+    }
+    
+    12.5% {
+        
+        left: 69%;
+          
+    }
+    
+    25% {
+        
+        left: 70%;
+          
+    }
+    
+    37.5% {
+        
+        left: 71%;
+          
+    }
+    
+    50% {
+        
+        left: 70%;
+        
+    }
+    
+    62.5% {
+        
+        left: 69%;
+          
+    }
+    
+    75% {
+        
+        left: 70%;
+          
+    }
+    
+    87.5% {
+        
+        left: 71%;
+          
+    }
+    
+    100% {
+        
+        left: 70%;
+        
+    }
+    
+}
+    
+.move_locked {
+    
+    -webkit-animation-name: move_locked;
+    -webkit-animation-duration: 600ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_locked;
+    -moz-animation-duration: 600ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_locked;
+    -o-animation-duration: 600ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_locked;
+    animation-duration: 600ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE LOCKED ↑ */

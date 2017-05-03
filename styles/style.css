@@ -1,0 +1,601 @@
+* {
+    overflow: hidden;
+}
+
+body {
+
+    background-color: #000000;
+    /*
+    background: -webkit-linear-gradient(135deg, #F8F39F 50%, #f27ea3);
+    background: -o-linear-gradient(135deg, #F8F39F 50%, #f27ea3);
+    background: -moz-linear-gradient(135deg, #F8F39F 50%, #f27ea3);
+    background: linear-gradient(135deg, #F8F39F 50%, #f27ea3);
+    */
+    -ms-touch-action: none;
+    touch-action: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+
+}
+/*
+#background {
+    
+    background-image: url(../resources/images/background_b.png);
+    background-size: 41px 40px;
+    background-position: 0 0;
+    background-repeat: repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+*/
+.button {
+    
+    cursor: pointer;
+    
+}
+
+/* ↓ NAVIGATION ↓ */
+
+.button_navigation {
+    
+    width: 3.7109375%;
+    max-width: 190;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    z-index: 100;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+.button_navigation_vertical {
+    
+    width: 3.7109375%;
+    max-width: 190;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    z-index: 100;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+.button_navigation_left {
+    
+
+    left: 4.98046875%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+.button_navigation_right {
+    
+
+    left: 95.01953125%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+.button_navigation_up {
+    
+
+    top: 8.8541666666666666666666666666667%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+.button_navigation_down {
+    
+
+    top: 91.145833333333333333333333333333%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+#image_button_navigation_left {
+    
+
+    display: none;
+    
+}
+
+#image_button_navigation_left_clicked {
+    
+
+    display: none;
+    
+}
+
+#image_button_navigation_right {
+    
+
+    display: inline;
+    
+}
+
+#image_button_navigation_right_clicked {
+    
+
+    display: none;
+    
+}
+
+#image_button_navigation_close {
+    
+
+    display: none;
+    
+}
+
+#image_button_navigation_close_clicked {
+    
+
+    display: none;
+    
+}
+
+#image_button_navigation_up {
+    
+
+    display: none;
+    
+}
+
+#image_button_navigation_up_clicked {
+    
+
+    display: none;
+    
+}
+
+#image_button_navigation_down {
+    
+
+    display: none;
+    
+}
+
+#image_button_navigation_down_clicked {
+    
+
+    display: none;
+    
+}
+
+#image_button_navigation_twitter {
+    
+    display: none;
+    width: 1.85546875%;
+    max-width: 95;
+    height: auto;
+    position: absolute;
+    top: 67.37034722222222%;
+    left: 47.90720703125%;
+    z-index: ;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+#image_button_navigation_linkedin {
+    
+    display: none;
+    width: 1.85546875%;
+    max-width: 95;
+    height: auto;
+    position: absolute;
+    top: 67.1171875%;
+    left: 52.063359375%;
+    z-index: ;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+/* ↑ NAVIGATION ↑ */
+
+/* ↓ GAMIFICATION ↓ */
+
+.button_lock {
+    
+    width: 5.55818359375%;
+    max-width: 284.579;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    z-index: ;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+.button_lock_and_key {
+    
+    width: 8.121953125%;
+    max-width: 415.844;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 71%;
+    z-index: ;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+#image_button_lock {
+    
+    display: none;
+    
+}
+
+#image_button_unlock_key {
+    
+    display: none;
+    width: 4.8828125%;
+    max-width: 250;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    z-index: ;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+#image_lock_and_key_amount {
+    
+    display: none;
+    width: 2.16064453125%;
+    max-width: 110.625;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    z-index: ;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+/* ↑ GAMIFICATION ↑ */
+
+/* ↓ ME ↓ */
+
+.standard_logo {
+    
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+.final_logo {
+    
+    top: 42.5053125%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+#image_button_circle {
+    
+    display: inline;
+    width: 13.671875%;
+    max-width: 700;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    z-index: ;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+#image_button_name {
+    
+    display: inline;
+    width: 23.0414453125%;
+    max-width: 1179.722;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    z-index: ;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+/* ↑ ME ↑ */
+
+/* ↓ JOB ↓ */
+
+#job {
+    
+    display: none;
+    
+}
+
+#0 {
+    
+    display: none;
+    
+}
+
+.video {
+    
+    width: 62.5%;
+    height: 62.5%;
+    border-color: #000000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: ;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+#video_1 {
+    
+    display: none;
+    
+}
+
+#video_2 {
+    
+    display: none;
+    
+}
+
+.job_description {
+    
+    position: absolute;
+    top: 50%;
+    left: 23.8851171875%;
+    z-index: ;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+.button_job_gallery {
+    
+    width: 39.0234375%;
+    max-width: 1998;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 61.962890625%;
+    z-index: ;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+.job_gallery {
+    
+    width: 75.67734375%;
+    max-width: 3874.68;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: ;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+#1 {
+    
+    display: none;
+    
+}
+
+#1_intro {
+    
+    display: none;
+    
+}
+
+#image_job_description_1 {
+    
+    width: 12.470625%;
+    max-width: 638.496;
+    height: auto;
+    
+}
+
+#1_gallery {
+    
+    display: none;
+    
+}
+
+#image_job_gallery_1_1 {
+    
+    display: none;
+    
+}
+
+#image_job_gallery_1_2 {
+    
+    display: none;
+    
+}
+
+#image_job_gallery_1_3 {
+    
+    display: none;
+    
+}
+
+#2 {
+    
+    display: none;
+    
+}
+
+#2_intro {
+    
+    display: none;
+    
+}
+
+#image_job_description_2 {
+    
+    width: 17.962109375%;
+    max-width: 919.66;
+    height: auto;
+    
+}
+
+#2_gallery {
+    
+    display: none;
+    
+}
+
+#image_job_gallery_2_1 {
+    
+    display: none;
+    
+}
+
+#image_job_gallery_2_2 {
+    
+    display: none;
+    
+}
+
+#image_job_gallery_2_3 {
+    
+    display: none;
+    
+}
+
+#3 {
+    
+    display: none;
+    
+}
+
+#3_intro {
+    
+    display: none;
+    
+}
+
+#image_job_description_3 {
+    
+    width: 17.962109375%;
+    max-width: 919.66;
+    height: auto;
+    
+}
+
+#3_gallery {
+    
+    display: none;
+    
+}
+
+#image_job_gallery_3_1 {
+    
+    display: none;
+    
+}
+
+#image_job_gallery_3_2 {
+    
+    display: none;
+    
+}
+
+#image_job_gallery_3_3 {
+    
+    display: none;
+    
+}
+
+/* ↑ JOB ↑ */
