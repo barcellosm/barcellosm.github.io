@@ -63,7 +63,7 @@ var DOMme = {
 
 var DOMjob = {
     
-    linkGalleryX: (id, value) => link('image_button_job_gallery_' + id, value),
+    linkGalleryX: (id, value) => { link('image_button_job_gallery_' + id, value); link('image_job_description_' + id, value); },
     
     showJob: () => setDOMvalue('job', 'display', 'inline'),
     showJobX: id => setDOMvalue(id, 'display', 'inline'),
@@ -81,17 +81,17 @@ var DOMjob = {
     
     
     moveInJobX: (id, direction) => setDOMvalue(id, 'class', 'move_in_' + direction),
-    moveInIntroX: (id, direction) => { setDOMvalue('image_job_description_' + id, 'class', 'job_description move_in_job_description_' + direction); setDOMvalue('image_button_job_gallery_' + id, 'class', 'button button_job_gallery move_in_button_job_gallery_' + direction); },
+    moveInIntroX: (id, direction) => { setDOMvalue('image_job_description_' + id, 'class', 'button job_description move_in_job_description_' + direction); setDOMvalue('image_button_job_gallery_' + id, 'class', 'button button_job_gallery move_in_button_job_gallery_' + direction); },
     moveInGalleryX: (idA, idB, direction) => setDOMvalue('image_job_gallery_' + idA + '_' + idB, 'class', 'job_gallery move_in_' + direction),
     moveInVideoX: (id, direction) => setDOMvalue('video_' + id, 'class', 'video move_in_' + direction),
     
     moveOutJobX: (id, direction) => setDOMvalue(id, 'class', 'move_out_' + direction),
-    moveOutIntroX: (id, direction) => { setDOMvalue('image_job_description_' + id, 'class', 'job_description move_out_job_description_' + direction); setDOMvalue('image_button_job_gallery_' + id, 'class', 'button button_job_gallery move_out_button_job_gallery_' + direction); },
+    moveOutIntroX: (id, direction) => { setDOMvalue('image_job_description_' + id, 'class', 'button job_description move_out_job_description_' + direction); setDOMvalue('image_button_job_gallery_' + id, 'class', 'button button_job_gallery move_out_button_job_gallery_' + direction); },
     moveOutGalleryX: (idA, idB, direction) => setDOMvalue('image_job_gallery_' + idA + '_' + idB, 'class', 'job_gallery move_out_' + direction),
     moveOutVideoX: (id, direction) => setDOMvalue('video_' + id, 'class', 'video move_out_' + direction),
     
     resetJobX: id => setDOMvalue(id, 'class', ''),
-    resetIntroX: id => { setDOMvalue('image_job_description_' + id, 'class', 'job_description'); setDOMvalue('image_button_job_gallery_' + id, 'class', 'button button_job_gallery'); },
+    resetIntroX: id => { setDOMvalue('image_job_description_' + id, 'class', 'button job_description'); setDOMvalue('image_button_job_gallery_' + id, 'class', 'button button_job_gallery'); },
     resetGalleryX: (idA, idB) => setDOMvalue('image_job_gallery_' + idA + '_' + idB, 'class', 'job_gallery'),
     resetVideoX: id => setDOMvalue('video_' + id, 'class', 'video'),
     

@@ -84,8 +84,8 @@ body {
 
 .button_navigation {
     
-    width: 3.7109375%;
-    max-width: 190;
+    width: 7.421875%;
+    max-width: 380;
     height: auto;
     position: absolute;
     top: 50%;
@@ -100,8 +100,8 @@ body {
 
 .button_navigation_vertical {
     
-    width: 3.7109375%;
-    max-width: 190;
+    width: 7.421875%;
+    max-width: 380;
     height: auto;
     position: absolute;
     left: 50%;
@@ -117,7 +117,7 @@ body {
 .button_navigation_left {
     
 
-    left: 4.98046875%;
+    left: 6.8359375%;
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -129,7 +129,7 @@ body {
 .button_navigation_right {
     
 
-    left: 95.01953125%;
+    left: 93.1640625%;
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -141,7 +141,7 @@ body {
 .button_navigation_up {
     
 
-    top: 8.8541666666666666666666666666667%;
+    top: 12.152777777777777777777777777778%;
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -153,7 +153,7 @@ body {
 .button_navigation_down {
     
 
-    top: 91.145833333333333333333333333333%;
+    top: 87.847222222222222222222222222222%;
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -235,12 +235,12 @@ body {
 #image_button_navigation_twitter {
     
     display: none;
-    width: 1.85546875%;
-    max-width: 95;
+    width: 3.3203125%;
+    max-width: 170;
     height: auto;
     position: absolute;
-    top: 67.37034722222222%;
-    left: 47.90720703125%;
+    top: 70.525104166666666666666666666667%;
+    left: 47.07712890625%;
     z-index: ;
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
@@ -253,12 +253,12 @@ body {
 #image_button_navigation_linkedin {
     
     display: none;
-    width: 1.85546875%;
-    max-width: 95;
+    width: 3.3203125%;
+    max-width: 170;
     height: auto;
     position: absolute;
-    top: 67.1171875%;
-    left: 52.063359375%;
+    top: 70.271944444444444444444444444444%;
+    left: 52.856171875%;
     z-index: ;
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
@@ -274,8 +274,8 @@ body {
 
 .button_lock {
     
-    width: 5.55818359375%;
-    max-width: 284.579;
+    width: 11.1163671875%;
+    max-width: 569.158;
     height: auto;
     position: absolute;
     top: 50%;
@@ -291,12 +291,12 @@ body {
 
 .button_lock_and_key {
     
-    width: 8.121953125%;
-    max-width: 415.844;
+    width: 16.21919921875%;
+    max-width: 830.423;
     height: auto;
     position: absolute;
     top: 50%;
-    left: 71%;
+    left: 72.55142578125%;
     z-index: ;
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
@@ -315,8 +315,8 @@ body {
 #image_button_unlock_key {
     
     display: none;
-    width: 4.8828125%;
-    max-width: 250;
+    width: 9.765625%;
+    max-width: 500;
     height: auto;
     position: absolute;
     top: 50%;
@@ -333,8 +333,8 @@ body {
 #image_lock_and_key_amount {
     
     display: none;
-    width: 2.16064453125%;
-    max-width: 110.625;
+    width: 19.08369140625%;
+    max-width: 977.085;
     height: auto;
     position: absolute;
     top: 50%;
@@ -365,7 +365,7 @@ body {
 
 .final_logo {
     
-    top: 42.5053125%;
+    top: 43.660069444444444444444444444444%;
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -377,8 +377,8 @@ body {
 #image_button_circle {
     
     display: inline;
-    width: 13.671875%;
-    max-width: 700;
+    width: 16.40625%;
+    max-width: 840;
     height: auto;
     position: absolute;
     left: 50%;
@@ -394,8 +394,8 @@ body {
 #image_button_name {
     
     display: inline;
-    width: 23.0414453125%;
-    max-width: 1179.722;
+    width: 27.6497265625%;
+    max-width: 1415.666;
     height: auto;
     position: absolute;
     left: 50%;
@@ -426,8 +426,8 @@ body {
 
 .video {
     
-    width: 62.5%;
-    height: 62.5%;
+    width: 50%;
+    height: 50%;
     border-color: #000000;
     position: absolute;
     top: 50%;
@@ -455,9 +455,12 @@ body {
 
 .job_description {
     
+    width: 69%;
+    max-width: 3532.8;
+    height: auto;
     position: absolute;
     top: 50%;
-    left: 23.8851171875%;
+    left: 50%;
     z-index: ;
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
@@ -486,8 +489,8 @@ body {
 
 .job_gallery {
     
-    width: 75.67734375%;
-    max-width: 3874.68;
+    width: 69%;
+    max-width: 3532.8;
     height: auto;
     position: absolute;
     top: 50%;
@@ -510,14 +513,6 @@ body {
 #1_intro {
     
     display: none;
-    
-}
-
-#image_job_description_1 {
-    
-    width: 12.470625%;
-    max-width: 638.496;
-    height: auto;
     
 }
 
@@ -557,14 +552,6 @@ body {
     
 }
 
-#image_job_description_2 {
-    
-    width: 17.962109375%;
-    max-width: 919.66;
-    height: auto;
-    
-}
-
 #2_gallery {
     
     display: none;
@@ -598,14 +585,6 @@ body {
 #3_intro {
     
     display: none;
-    
-}
-
-#image_job_description_3 {
-    
-    width: 17.962109375%;
-    max-width: 919.66;
-    height: auto;
     
 }
 

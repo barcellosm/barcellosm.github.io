@@ -1,4 +1,4 @@
-var landscape, portrait;
+var landscape = false, portrait = false;
 
 var timeClick = 200;
 var timeAnimateMe = 800;

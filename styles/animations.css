@@ -411,7 +411,7 @@
     
     100% {
         
-        left: 23.8851171875%;
+        left: 50%;
         opacity: 1;
         
     }
@@ -429,7 +429,7 @@
     
     100% {
         
-        left: 23.8851171875%;
+        left: 50%;
         opacity: 1;
         
     }
@@ -447,7 +447,7 @@
     
     100% {
         
-        left: 23.8851171875%;
+        left: 50%;
         opacity: 1;
         
     }
@@ -465,7 +465,7 @@
     
     100% {
         
-        left: 23.8851171875%;
+        left: 50%;
         opacity: 1;
         
     }
@@ -504,7 +504,7 @@
     
     0% {
         
-        left: 23.8851171875%;
+        left: 50%;
         opacity: 1;
           
     }
@@ -522,7 +522,7 @@
     
     0% {
         
-        left: 23.8851171875%;
+        left: 50%;
         opacity: 1;
           
     }
@@ -540,7 +540,7 @@
     
     0% {
         
-        left: 23.8851171875%;
+        left: 50%;
         opacity: 1;
           
     }
@@ -558,7 +558,7 @@
     
     0% {
         
-        left: 23.8851171875%;
+        left: 50%;
         opacity: 1;
           
     }
@@ -611,7 +611,7 @@
     
     100% {
         
-        left: 23.8851171875%;
+        left: 50%;
         opacity: 1;
         
     }
@@ -629,7 +629,7 @@
     
     100% {
         
-        left: 23.8851171875%;
+        left: 50%;
         opacity: 1;
         
     }
@@ -647,7 +647,7 @@
     
     100% {
         
-        left: 23.8851171875%;
+        left: 50%;
         opacity: 1;
         
     }
@@ -665,7 +665,7 @@
     
     100% {
         
-        left: 23.8851171875%;
+        left: 50%;
         opacity: 1;
         
     }
@@ -704,7 +704,7 @@
     
     0% {
         
-        left: 23.8851171875%;
+        left: 50%;
         opacity: 1; 
           
     }
@@ -722,7 +722,7 @@
     
     0% {
         
-        left: 23.8851171875%;
+        left: 50%;
         opacity: 1; 
           
     }
@@ -740,7 +740,7 @@
     
     0% {
         
-        left: 23.8851171875%;
+        left: 50%;
         opacity: 1; 
           
     }
@@ -758,7 +758,7 @@
     
     0% {
         
-        left: 23.8851171875%;
+        left: 50%;
         opacity: 1; 
           
     }
@@ -3470,6 +3470,806 @@
 
 /* ↑ MOVE OUT LOCK FROM CENTER IN ↑ */
 
+/* ↓ MOVE IN AMOUNT FROM LEFT PIC ↓ */
+
+@-webkit-keyframes move_in_amount_from_left_pic {
+    
+    0% {
+        
+        left: 0%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 30%;
+        opacity: 1;
+        
+    }
+    
+}
+
+@-moz-keyframes move_in_amount_from_left_pic {
+    
+    0% {
+        
+        left: 0%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 30%;
+        opacity: 1;
+        
+    }
+    
+}
+
+@-o-keyframes move_in_amount_from_left_pic {
+    
+    0% {
+        
+        left: 0%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 30%;
+        opacity: 1;
+        
+    }
+    
+}
+
+@keyframes move_in_amount_from_left_pic {
+    
+    0% {
+        
+        left: 0%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 30%;
+        opacity: 1;
+        
+    }
+    
+}
+    
+.move_in_amount_from_left_pic {
+    
+    -webkit-animation-name: move_in_amount_from_left_pic;
+    -webkit-animation-duration: 1000ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_in_amount_from_left_pic;
+    -moz-animation-duration: 1000ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_in_amount_from_left_pic;
+    -o-animation-duration: 1000ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_in_amount_from_left_pic;
+    animation-duration: 1000ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE IN AMOUNT FROM LEFT PIC ↑ */
+
+/* ↓ MOVE OUT AMOUNT FROM LEFT PIC ↓ */
+
+@-webkit-keyframes move_out_amount_from_left_pic {
+    
+    0% {
+        
+        left: 30%;
+        opacity: 1;
+          
+    }
+    
+    100% {
+        
+        left: 100%;
+        opacity: 0;
+        
+    }
+    
+}
+
+@-moz-keyframes move_out_amount_from_left_pic {
+    
+    0% {
+        
+        left: 30%;
+        opacity: 1;
+          
+    }
+    
+    100% {
+        
+        left: 100%;
+        opacity: 0;
+        
+    }
+    
+}
+
+@-o-keyframes move_out_amount_from_left_pic {
+    
+    0% {
+        
+        left: 30%;
+        opacity: 1;
+          
+    }
+    
+    100% {
+        
+        left: 100%;
+        opacity: 0;
+        
+    }
+    
+}
+
+@keyframes move_out_amount_from_left_pic {
+    
+    0% {
+        
+        left: 30%;
+        opacity: 1;
+          
+    }
+    
+    100% {
+        
+        left: 100%;
+        opacity: 0;
+        
+    }
+    
+}
+    
+.move_out_amount_from_left_pic {
+    
+    -webkit-animation-name: move_out_amount_from_left_pic;
+    -webkit-animation-duration: 500ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_out_amount_from_left_pic;
+    -moz-animation-duration: 500ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_out_amount_from_left_pic;
+    -o-animation-duration: 500ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_out_amount_from_left_pic;
+    animation-duration: 500ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE OUT AMOUNT FROM LEFT PIC ↑ */
+
+/* ↓ MOVE IN AMOUNT FROM RIGHT PIC ↓ */
+
+@-webkit-keyframes move_in_amount_from_right_pic {
+    
+    0% {
+        
+        left: 100%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 30%;
+        opacity: 1;
+        
+    }
+    
+}
+
+@-moz-keyframes move_in_amount_from_right_pic {
+    
+    0% {
+        
+        left: 100%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 30%;
+        opacity: 1;
+        
+    }
+    
+}
+
+@-o-keyframes move_in_amount_from_right_pic {
+    
+    0% {
+        
+        left: 100%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 30%;
+        opacity: 1;
+        
+    }
+    
+}
+
+@keyframes move_in_amount_from_right_pic {
+    
+    0% {
+        
+        left: 100%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 30%;
+        opacity: 1;
+        
+    }
+    
+}
+    
+.move_in_amount_from_right_pic {
+    
+    -webkit-animation-name: move_in_amount_from_right_pic;
+    -webkit-animation-duration: 1000ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_in_amount_from_right_pic;
+    -moz-animation-duration: 1000ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_in_amount_from_right_pic;
+    -o-animation-duration: 1000ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_in_amount_from_right_pic;
+    animation-duration: 1000ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE IN AMOUNT FROM RIGHT PIC ↑ */
+
+/* ↓ MOVE OUT AMOUNT FROM RIGHT PIC ↓ */
+
+@-webkit-keyframes move_out_amount_from_right_pic {
+    
+    0% {
+        
+        left: 30%;
+        opacity: 1; 
+          
+    }
+    
+    100% {
+        
+        left: 0%;
+        opacity: 0;
+        
+    }
+    
+}
+
+@-moz-keyframes move_out_amount_from_right_pic {
+    
+    0% {
+        
+        left: 30%;
+        opacity: 1; 
+          
+    }
+    
+    100% {
+        
+        left: 0%;
+        opacity: 0;
+        
+    }
+    
+}
+
+@-o-keyframes move_out_amount_from_right_pic {
+    
+    0% {
+        
+        left: 30%;
+        opacity: 1; 
+          
+    }
+    
+    100% {
+        
+        left: 0%;
+        opacity: 0;
+        
+    }
+    
+}
+
+@keyframes move_out_amount_from_right_pic {
+    
+    0% {
+        
+        left: 30%;
+        opacity: 1; 
+          
+    }
+    
+    100% {
+        
+        left: 0%;
+        opacity: 0;
+        
+    }
+    
+}
+    
+.move_out_amount_from_right_pic {
+    
+    -webkit-animation-name: move_out_amount_from_right_pic;
+    -webkit-animation-duration: 500ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_out_amount_from_right_pic;
+    -moz-animation-duration: 500ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_out_amount_from_right_pic;
+    -o-animation-duration: 500ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_out_amount_from_right_pic;
+    animation-duration: 500ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE OUT AMOUNT FROM RIGHT PIC  ↑ */
+
+/* ↓ MOVE IN LOCK FROM LEFT PIC ↓ */
+
+@-webkit-keyframes move_in_lock_from_left_pic {
+    
+    0% {
+        
+        left: 0%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 70%;
+        opacity: 1;
+        
+    }
+    
+}
+
+@-moz-keyframes move_in_lock_from_left_pic {
+    
+    0% {
+        
+        left: 0%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 70%;
+        opacity: 1;
+        
+    }
+    
+}
+
+@-o-keyframes move_in_lock_from_left_pic {
+    
+    0% {
+        
+        left: 0%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 70%;
+        opacity: 1;
+        
+    }
+    
+}
+
+@keyframes move_in_lock_from_left_pic {
+    
+    0% {
+        
+        left: 0%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 70%;
+        opacity: 1;
+        
+    }
+    
+}
+    
+.move_in_lock_from_left_pic {
+    
+    -webkit-animation-name: move_in_lock_from_left_pic;
+    -webkit-animation-duration: 1000ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_in_lock_from_left_pic;
+    -moz-animation-duration: 1000ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_in_lock_from_left_pic;
+    -o-animation-duration: 1000ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_in_lock_from_left_pic;
+    animation-duration: 1000ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE IN LOCK FROM LEFT PIC ↑ */
+
+/* ↓ MOVE OUT LOCK FROM LEFT PIC ↓ */
+
+@-webkit-keyframes move_out_lock_from_left_pic {
+    
+    0% {
+        
+        left: 70%;
+        opacity: 1;
+          
+    }
+    
+    100% {
+        
+        left: 100%;
+        opacity: 0;
+        
+    }
+    
+}
+
+@-moz-keyframes move_out_lock_from_left_pic {
+    
+    0% {
+        
+        left: 70%;
+        opacity: 1;
+          
+    }
+    
+    100% {
+        
+        left: 100%;
+        opacity: 0;
+        
+    }
+    
+}
+
+@-o-keyframes move_out_lock_from_left_pic {
+    
+    0% {
+        
+        left: 70%;
+        opacity: 1;
+          
+    }
+    
+    100% {
+        
+        left: 100%;
+        opacity: 0;
+        
+    }
+    
+}
+
+@keyframes move_out_lock_from_left_pic {
+    
+    0% {
+        
+        left: 70%;
+        opacity: 1;
+          
+    }
+    
+    100% {
+        
+        left: 100%;
+        opacity: 0;
+        
+    }
+    
+}
+    
+.move_out_lock_from_left_pic {
+    
+    -webkit-animation-name: move_out_lock_from_left_pic;
+    -webkit-animation-duration: 500ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_out_lock_from_left_pic;
+    -moz-animation-duration: 500ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_out_lock_from_left_pic;
+    -o-animation-duration: 500ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_out_lock_from_left_pic;
+    animation-duration: 500ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE OUT LOCK FROM LEFT PIC ↑ */
+
+/* ↓ MOVE IN LOCK FROM RIGHT PIC ↓ */
+
+@-webkit-keyframes move_in_lock_from_right_pic {
+    
+    0% {
+        
+        left: 100%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 70%;
+        opacity: 1;
+        
+    }
+    
+}
+
+@-moz-keyframes move_in_lock_from_right_pic {
+    
+    0% {
+        
+        left: 100%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 70%;
+        opacity: 1;
+        
+    }
+    
+}
+
+@-o-keyframes move_in_lock_from_right_pic {
+    
+    0% {
+        
+        left: 100%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 70%;
+        opacity: 1;
+        
+    }
+    
+}
+
+@keyframes move_in_lock_from_right_pic {
+    
+    0% {
+        
+        left: 100%;
+        opacity: 0;
+          
+    }
+    
+    100% {
+        
+        left: 70%;
+        opacity: 1;
+        
+    }
+    
+}
+    
+.move_in_lock_from_right_pic {
+    
+    -webkit-animation-name: move_in_lock_from_right_pic;
+    -webkit-animation-duration: 1000ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_in_lock_from_right_pic;
+    -moz-animation-duration: 1000ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_in_lock_from_right_pic;
+    -o-animation-duration: 1000ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_in_lock_from_right_pic;
+    animation-duration: 1000ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE IN LOCK FROM RIGHT PIC ↑ */
+
+/* ↓ MOVE OUT LOCK FROM RIGHT PIC ↓ */
+
+@-webkit-keyframes move_out_lock_from_right_pic {
+    
+    0% {
+        
+        left: 70%;
+        opacity: 1; 
+          
+    }
+    
+    100% {
+        
+        left: 0%;
+        opacity: 0;
+        
+    }
+    
+}
+
+@-moz-keyframes move_out_lock_from_right_pic {
+    
+    0% {
+        
+        left: 70%;
+        opacity: 1; 
+          
+    }
+    
+    100% {
+        
+        left: 0%;
+        opacity: 0;
+        
+    }
+    
+}
+
+@-o-keyframes move_out_lock_from_right_pic {
+    
+    0% {
+        
+        left: 70%;
+        opacity: 1; 
+          
+    }
+    
+    100% {
+        
+        left: 0%;
+        opacity: 0;
+        
+    }
+    
+}
+
+@keyframes move_out_lock_from_right_pic {
+    
+    0% {
+        
+        left: 70%;
+        opacity: 1; 
+          
+    }
+    
+    100% {
+        
+        left: 0%;
+        opacity: 0;
+        
+    }
+    
+}
+    
+.move_out_lock_from_right_pic {
+    
+    -webkit-animation-name: move_out_lock_from_right_pic;
+    -webkit-animation-duration: 500ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: move_out_lock_from_right_pic;
+    -moz-animation-duration: 500ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: move_out_lock_from_right_pic;
+    -o-animation-duration: 500ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: move_out_lock_from_right_pic;
+    animation-duration: 500ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+/* ↑ MOVE OUT LOCK FROM RIGHT PIC ↑ */
+
 /* ↓ MOVE IN FROM LEFT PIC ↓ */
 
 @-webkit-keyframes move_in_from_left_pic {
@@ -4972,25 +5772,25 @@
     
     0% {
         
-        top: 42.5053125%;
+        top: 43.660069444444444444444444444444%;
           
     }
     
     15% {
         
-        top: 36.7692125%;
+        top: 37.7692125%;
           
     }
     
     50% {
         
-        top: 49.34006944444444%;
+        top: 50.34006944444444%;
         
     }
     
     100% {
         
-        top: 42.5053125%;
+        top: 43.660069444444444444444444444444%;
         
     }
     
@@ -5000,25 +5800,25 @@
     
     0% {
         
-        top: 42.5053125%;
+        top: 43.660069444444444444444444444444%;
           
     }
     
     15% {
         
-        top: 36.7692125%;
+        top: 37.7692125%;
           
     }
     
     50% {
         
-        top: 49.34006944444444%;
+        top: 50.34006944444444%;
         
     }
     
     100% {
         
-        top: 42.5053125%;
+        top: 43.660069444444444444444444444444%;
         
     }
     
@@ -5028,25 +5828,25 @@
     
     0% {
         
-        top: 42.5053125%;
+        top: 43.660069444444444444444444444444%;
           
     }
     
     15% {
         
-        top: 36.7692125%;
+        top: 37.7692125%;
           
     }
     
     50% {
         
-        top: 49.34006944444444%;
+        top: 50.34006944444444%;
         
     }
     
     100% {
         
-        top: 42.5053125%;
+        top: 43.660069444444444444444444444444%;
         
     }
     
@@ -5056,25 +5856,25 @@
     
     0% {
         
-        top: 42.5053125%;
+        top: 43.660069444444444444444444444444%;
           
     }
     
     15% {
         
-        top: 36.7692125%;
+        top: 37.7692125%;
           
     }
     
     50% {
         
-        top: 49.34006944444444%;
+        top: 50.34006944444444%;
         
     }
     
     100% {
         
-        top: 42.5053125%;
+        top: 43.660069444444444444444444444444%;
         
     }
     
@@ -5136,25 +5936,25 @@
     
     0% {
         
-        top: 42.5053125%;
+        top: 43.660069444444444444444444444444%;
           
     }
     
     15% {
         
-        top: 36.7692125%;
+        top: 37.7692125%;
           
     }
     
     70% {
         
-        top: 50.97753472222222%;
+        top: 51.97753472222222%;
         
     } 
     
     100% {
         
-        top: 42.5053125%;
+        top: 43.660069444444444444444444444444%;
         
     }
     
@@ -5164,25 +5964,25 @@
     
     0% {
         
-        top: 42.5053125%;
+        top: 43.660069444444444444444444444444%;
           
     }
     
     15% {
         
-        top: 36.7692125%;
+        top: 37.7692125%;
           
     }
     
     70% {
         
-        top: 50.97753472222222%;
+        top: 51.97753472222222%;
         
     } 
     
     100% {
         
-        top: 42.5053125%;
+        top: 43.660069444444444444444444444444%;
         
     }
     
@@ -5192,25 +5992,25 @@
     
     0% {
         
-        top: 42.5053125%;
+        top: 43.660069444444444444444444444444%;
           
     }
     
     15% {
         
-        top: 36.7692125%;
+        top: 37.7692125%;
           
     }
     
     70% {
         
-        top: 50.97753472222222%;
+        top: 51.97753472222222%;
         
     } 
     
     100% {
         
-        top: 42.5053125%;
+        top: 43.660069444444444444444444444444%;
         
     }
     
@@ -5220,25 +6020,25 @@
     
     0% {
         
-        top: 42.5053125%;
+        top: 43.660069444444444444444444444444%;
           
     }
     
     15% {
         
-        top: 36.7692125%;
+        top: 37.7692125%;
           
     }
     
     70% {
         
-        top: 50.97753472222222%;
+        top: 51.97753472222222%;
         
     } 
     
     100% {
         
-        top: 42.5053125%;
+        top: 43.660069444444444444444444444444%;
         
     }
     

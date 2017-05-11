@@ -33,8 +33,13 @@ var click = {
     basic: direction => {
         
         audios.button.play();
-        check.button(direction, DOMnavigation.showXClicked);
-        setTimeout(() => { check.button(direction, DOMnavigation.hideXClicked); }, timeClick);
+        
+        if ((direction === 'from_center_in') || (direction === 'from_center_out')) {} else {
+            
+            check.button(direction, DOMnavigation.showXClicked);
+            setTimeout(() => { check.button(direction, DOMnavigation.hideXClicked); }, timeClick);
+            
+        };
         
     }
     
@@ -93,7 +98,7 @@ var check = {
     },
     
     audio: (isNull, isNotNull) => check.equality(audios.background.currentTime, null, null, isNull, null, isNotNull),
-    button: (direction, callback) => check.equality(direction.slice(5, 9), 'left', 'righ', () => { callback('left') }, () => { callback('right') }, check.equality(direction.slice(5, 9), 'abov', 'belo', () => { callback('up') }, () => { callback('down') }, () => { callback('close') })),
+    button: (direction, callback) => check.equality(direction.slice(5, 9), 'left', 'righ', () => { callback('left') }, () => { callback('right') }, () => { check.equality(direction.slice(5, 9), 'abov', 'belo', () => { callback('up') }, () => { callback('down') }, () => { callback('close') }) }),
     lock: (index, locked, unlocked, reactionC) => check.equality(lockId[index], 'locked', 'unlocked', locked, unlocked, reactionC),
     key: (missing, found, reactionC) => check.equality(keyId[(pageId - 10)], 'missing', 'found', missing, found, reactionC),
     keyAmount: (doNotHave, have) => check.unequality(keys, 1, 0, doNotHave, have, null),
@@ -139,7 +144,7 @@ var me = {
                     DOMnavigation.showX('twitter');
                     DOMnavigation.showX('linkedin');
                     DOMnavigation.moveInSocial('from_center_out');
-                    setTimeout(() => { DOMme.resetSocial() }, timeMoveIn);
+                    setTimeout(() => { DOMnavigation.resetSocial() }, timeMoveIn);
 
                     if (isMobile === true) {
 
@@ -158,7 +163,7 @@ var me = {
             }, () => { 
 
                 DOMnavigation.moveOutSocial('from_center_in');
-                setTimeout(() => { DOMnavigation.hideX('twitter'); DOMnavigation.hideX('linkedin'); DOMme.resetSocial() }, timeMoveOut);
+                setTimeout(() => { DOMnavigation.hideX('twitter'); DOMnavigation.hideX('linkedin'); DOMnavigation.resetSocial() }, timeMoveOut);
 
             }, null);
             me.isLogo(typeMove, direction, audios.background.volume = 1.0, () => { audios.background.volume = 0.5 });
@@ -434,6 +439,7 @@ var gamification = {
             
             audios.item.play();
             gamification.set.key();
+            DOMgamification.setAmount('key_' + foundKeys.toString());
             DOMgamification.moveOutKey('from_center_in');
             DOMgamification.moveOutAmount('from_center_in');
             setTimeout(() => { DOMgamification.hideKey(); DOMgamification.hideAmount(); DOMgamification.resetKey(); DOMgamification.resetAmount(); }, timeMoveOut);
@@ -453,7 +459,7 @@ var gamification = {
         
         DOMgamification.showLock();
         DOMgamification.showAmount();
-        DOMgamification.setAmount(unlockedLocks.toString());
+        DOMgamification.setAmount('lock_' + unlockedLocks.toString());
         DOMgamification.linkLock('gamification.use.key()');
         
         check.keyAmount(() => { gamification.set.src('lock') }, () => { gamification.set.src('lock_and_key') });
@@ -480,7 +486,7 @@ var gamification = {
         
         DOMgamification.showKey();
         DOMgamification.showAmount();
-        DOMgamification.setAmount(foundKeys.toString());
+        DOMgamification.setAmount('key_' + foundKeys.toString());
         DOMgamification.linkKey('gamification.get.key("from_left_pic")');
         
         check.move(typeMove, () => { 
@@ -657,11 +663,11 @@ var navigation = {
             
             if (videoId === 0) {
                 
-                me.isMe('move in', direction);
+                setTimeout(() => { me.isMe('move in', direction) }, (timeMoveOut / 2));
                 
             } else if (videoId > 0) {
                 
-                job.isJob('video', 'move in', direction);
+                setTimeout(() => { job.isJob('video', 'move in', direction) }, (timeMoveOut / 2));
                 DOMnavigation.hideX('left');
                 DOMnavigation.hideX('right');
                 DOMnavigation.showX('down');
@@ -680,15 +686,15 @@ var navigation = {
             
             check.picId(() => { /* beyond last pic - show key */
                 
-                gamification.isGamification('move in', direction);
+                setTimeout(() => { gamification.isGamification('move in', direction) }, (timeMoveOut / 2));
                 DOMnavigation.linkX('left', 'navigation.fromX("from_left_pic", "lock")');
                 DOMnavigation.hideX('right');
                 DOMnavigation.showX('close');
                 DOMnavigation.linkX('close', 'navigation.fromX("from_center_out", "lock")');
 
-            }, null, () => { job.isJob('gallery', 'move in', direction); DOMnavigation.hideX('left') }, () => { /* last pic and already took key - show button to close */
+            }, null, () => { setTimeout(() => { job.isJob('gallery', 'move in', direction) }, (timeMoveOut / 2)); DOMnavigation.hideX('left') }, () => { /* last pic and already took key - show button to close */
                 
-                job.isJob('gallery', 'move in', direction);
+                setTimeout(() => { job.isJob('gallery', 'move in', direction) }, (timeMoveOut / 2));
                 
                 check.key(null, () => { 
 
@@ -698,7 +704,7 @@ var navigation = {
 
                 }, null);
 
-            }, () => { job.isJob('gallery', 'move in', direction) }); 
+            }, () => { setTimeout(() => { job.isJob('gallery', 'move in', direction) }, (timeMoveOut / 2)) });
         
             
         /* to Job */
@@ -707,7 +713,7 @@ var navigation = {
             
             check.lock(pageId, () => { /* job locked - show lock */
             
-                gamification.isGamification('move in', direction);
+                setTimeout(() => { gamification.isGamification('move in', direction) }, (timeMoveOut / 2));
                 DOMnavigation.linkX('left', 'navigation.fromX("from_left", "lock")');
                 
                 if (pageId === lastPageId) {
@@ -722,7 +728,7 @@ var navigation = {
             
             }, () => { /* job unlocked - show job */
             
-                job.isJob('intro', 'move in', direction);
+                setTimeout(() => { job.isJob('intro', 'move in', direction) }, (timeMoveOut / 2));
                 DOMnavigation.linkX('left', 'navigation.fromX("from_left", "job")');
 
                 if ((pageId === lastPageId) && (unlockedLocks < (totalLocks - 1))) { /* game not finished - hide button to next page (initial page) */
