@@ -179,7 +179,7 @@ body {
 #image_button_navigation_right {
     
 
-    display: inline;
+    display: none;
     
 }
 
@@ -376,7 +376,7 @@ body {
 
 #image_button_circle {
     
-    display: inline;
+    display: none;
     width: 16.40625%;
     max-width: 840;
     height: auto;
@@ -393,7 +393,7 @@ body {
 
 #image_button_name {
     
-    display: inline;
+    display: none;
     width: 27.6497265625%;
     max-width: 1415.666;
     height: auto;

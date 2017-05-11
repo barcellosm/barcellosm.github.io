@@ -48,6 +48,9 @@ var device = () => {
 var init = () => {
     
     audios.set();
+    DOMme.showCircle();
+    DOMme.showName();
+    DOMnavigation.showX('right');
     audios.background.play();
     device();
     DOMme.linkCircle('me.animateMe("")');
