@@ -116,15 +116,15 @@ var me = {
         
     },
     
-    animateMe: id => {
+    animateMe: (id, sound) => {
         
-        audios.button.play();
-        /* change music */
+        if (sound === 'on') { audios.button.play() };
+        if (id === '') { audios.background.pause(); audioBackground = 'off'; } else if ((id === '_forever') || (id === '_final_forever')) { audios.background.play(); audioBackground = 'on'; };
         DOMme.linkCircle('');
         DOMme.linkName('');
         DOMme.moveUpAndDownCircle(id);
         DOMme.moveUpAndDownName(id);
-        setTimeout(() => { if (id === '') { DOMme.resetCircle(); DOMme.resetName(); DOMme.linkCircle('me.animateMe("")'); DOMme.linkName('me.animateMe("")'); } else if (id === '_final_forever') { DOMme.linkCircle('me.animateMe("_final_forever")'); DOMme.linkName('me.animateMe("_final_forever")'); }; }, timeAnimateMe);
+        setTimeout(() => { if ((id === '_forever') || (id === '_final_forever')) { DOMme.linkCircle('me.animateMe("", "on")'); DOMme.linkName('me.animateMe("", "on")'); } else if (id === '') { DOMme.resetCircle(); DOMme.resetName(); if (positionLogo === 'standard_logo') { DOMme.linkCircle('me.animateMe("_forever", "on")'); DOMme.linkName('me.animateMe("_forever", "on")'); } else if (positionLogo === 'final_logo') { DOMme.linkCircle('me.animateMe("_final_forever", "on")'); DOMme.linkName('me.animateMe("_final_forever", "on")'); }; } }, timeAnimateMe);
         
     },
     
@@ -171,7 +171,6 @@ var me = {
         }, () => { /* final lock */
 
             gamification.isGamification('move in', direction);
-            DOMnavigation.showX('left');
             DOMnavigation.linkX('left', 'navigation.fromX("from_left", "lock")');
             DOMnavigation.linkX('right', 'navigation.fromX("from_right", "lock")');
 
@@ -189,7 +188,7 @@ var me = {
             check.audio(isNull, null);
             DOMme.moveInCircle(direction);
             DOMme.moveInName(direction);
-            setTimeout(() => { DOMme.resetCircle(); DOMme.resetName(); check.unlockedLocks(null, () => { me.animateMe('_final_forever') }, null); }, timeMoveIn);
+            setTimeout(() => { DOMme.resetCircle(); DOMme.resetName(); if (audioBackground === 'on') { if (positionLogo === 'standard_logo') { me.animateMe('_forever', 'off'); } else if (positionLogo === 'final_logo') { me.animateMe('_final_forever', 'off') }; }; check.unlockedLocks(null, () => { me.animateMe('_final_forever', 'off') }, null); }, timeMoveIn);
         
         }, () => { 
         
@@ -644,11 +643,11 @@ var navigation = {
         
         if (pageId === 0) {
             
+            DOMnavigation.linkX('left', 'navigation.fromX("from_left", "me")'); 
             DOMnavigation.linkX('right', 'navigation.fromX("from_right", "me")');
             
-            check.lock(pageId, () => { DOMnavigation.hideX('left') }, () => {
+            check.lock(pageId, null, () => {
                 
-                DOMnavigation.linkX('left', 'navigation.fromX("from_left", "me")'); 
                 DOMnavigation.showX('up');
                 DOMnavigation.linkX('up', 'navigation.fromX("from_above", "me")'); 
                 
@@ -715,31 +714,13 @@ var navigation = {
             
                 setTimeout(() => { gamification.isGamification('move in', direction) }, (timeMoveOut / 2));
                 DOMnavigation.linkX('left', 'navigation.fromX("from_left", "lock")');
-                
-                if (pageId === lastPageId) {
-                
-                    DOMnavigation.hideX('right');
-                    
-                } else {
-                    
-                    DOMnavigation.linkX('right', 'navigation.fromX("from_right", "lock")');
-                    
-                };
+                DOMnavigation.linkX('right', 'navigation.fromX("from_right", "lock")');
             
             }, () => { /* job unlocked - show job */
             
                 setTimeout(() => { job.isJob('intro', 'move in', direction) }, (timeMoveOut / 2));
                 DOMnavigation.linkX('left', 'navigation.fromX("from_left", "job")');
-
-                if ((pageId === lastPageId) && (unlockedLocks < (totalLocks - 1))) { /* game not finished - hide button to next page (initial page) */
-
-                    DOMnavigation.hideX('right');
-
-                } else { /* game finished - show button to next page (initial page) */
-
-                    DOMnavigation.linkX('right', 'navigation.fromX("from_right", "job")');
-
-                };
+                DOMnavigation.linkX('right', 'navigation.fromX("from_right", "job")');
             
             }, null);
             

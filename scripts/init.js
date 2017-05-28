@@ -28,6 +28,8 @@ var foundKeys = 0;
 
 var positionLogo = 'standard_logo';
 
+var audioBackground = 'off';
+
 var isMobile;
 var device = () => {
     
@@ -50,11 +52,11 @@ var init = () => {
     audios.set();
     DOMme.showCircle();
     DOMme.showName();
+    DOMnavigation.showX('left');
     DOMnavigation.showX('right');
-    audios.background.play();
     device();
-    DOMme.linkCircle('me.animateMe("")');
-    DOMme.linkName('me.animateMe("")');
+    DOMme.linkCircle('me.animateMe("_forever", "on")');
+    DOMme.linkName('me.animateMe("_forever", "on")');
     DOMnavigation.linkX('right', 'navigation.fromX("from_right", "me")');
     DOMjob.cleanJob();
     
