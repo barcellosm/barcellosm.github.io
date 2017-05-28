@@ -57,6 +57,7 @@ var init = () => {
     device();
     DOMme.linkCircle('me.animateMe("_forever", "on")');
     DOMme.linkName('me.animateMe("_forever", "on")');
+    DOMnavigation.linkX('left', 'navigation.fromX("from_left", "me")');
     DOMnavigation.linkX('right', 'navigation.fromX("from_right", "me")');
     DOMjob.cleanJob();
     
