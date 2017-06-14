@@ -119,12 +119,12 @@ var me = {
     animateMe: (id, sound) => {
         
         if (sound === 'on') { audios.button.play() };
-        if (id === '') { audios.background.pause(); audioBackground = 'off'; } else if ((id === '_forever') || (id === '_final_forever')) { audios.background.play(); audioBackground = 'on'; };
+        if ((id === '') || (id === '_final')) { audios.background.pause(); audioBackground = 'off'; } else if ((id === '_forever') || (id === '_final_forever')) { audios.background.play(); audioBackground = 'on'; };
         DOMme.linkCircle('');
         DOMme.linkName('');
         DOMme.moveUpAndDownCircle(id);
         DOMme.moveUpAndDownName(id);
-        setTimeout(() => { if ((id === '_forever') || (id === '_final_forever')) { DOMme.linkCircle('me.animateMe("", "on")'); DOMme.linkName('me.animateMe("", "on")'); } else if (id === '') { DOMme.resetCircle(); DOMme.resetName(); if (positionLogo === 'standard_logo') { DOMme.linkCircle('me.animateMe("_forever", "on")'); DOMme.linkName('me.animateMe("_forever", "on")'); } else if (positionLogo === 'final_logo') { DOMme.linkCircle('me.animateMe("_final_forever", "on")'); DOMme.linkName('me.animateMe("_final_forever", "on")'); }; } }, timeAnimateMe);
+        setTimeout(() => { if (id === '_forever') { DOMme.linkCircle('me.animateMe("", "on")'); DOMme.linkName('me.animateMe("", "on")'); } else if (id === '_final_forever') { DOMme.linkCircle('me.animateMe("_final", "on")'); DOMme.linkName('me.animateMe("_final", "on")'); } else if ((id === '') || (id === '_final')) { DOMme.resetCircle(); DOMme.resetName(); if (positionLogo === 'standard_logo') { DOMme.linkCircle('me.animateMe("_forever", "on")'); DOMme.linkName('me.animateMe("_forever", "on")'); } else if (positionLogo === 'final_logo') { DOMme.linkCircle('me.animateMe("_final_forever", "on")'); DOMme.linkName('me.animateMe("_final_forever", "on")'); }; } }, timeAnimateMe);
         
     },
     
@@ -686,10 +686,9 @@ var navigation = {
             check.picId(() => { /* beyond last pic - show key */
                 
                 setTimeout(() => { gamification.isGamification('move in', direction) }, (timeMoveOut / 2));
-                DOMnavigation.linkX('left', 'navigation.fromX("from_left_pic", "lock")');
+                DOMnavigation.hideX('left');
                 DOMnavigation.hideX('right');
-                DOMnavigation.showX('close');
-                DOMnavigation.linkX('close', 'navigation.fromX("from_center_out", "lock")');
+                DOMnavigation.hideX('close');
 
             }, null, () => { setTimeout(() => { job.isJob('gallery', 'move in', direction) }, (timeMoveOut / 2)); DOMnavigation.hideX('left') }, () => { /* last pic and already took key - show button to close */
                 

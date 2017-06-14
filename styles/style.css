@@ -80,6 +80,88 @@ body {
     
 }
 
+/* ↓ PORTFOLIO OPTION ↓ */
+
+.button_portfolio {
+    
+    position: absolute;
+    top: 30.6178125%;
+    z-index: ;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+#image_button_portfolio_play {
+    
+    width: 22.0386328125%;
+    max-width: 1128.378;
+    height: auto;
+    position: absolute;
+    left: 26.5101953125%;
+    z-index: ;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+#image_button_portfolio_skip {
+    
+    width: 27.4271875%;
+    max-width: 1404.272;
+    height: auto;
+    position: absolute;
+    left: 70.795546875%;
+    z-index: ;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+#image_portfolio_slash {
+    
+    width: 2.71654296875%;
+    max-width: 139.087;
+    height: auto;
+    position: absolute;
+    left: 47.2819921875%;
+    z-index: ;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+#image_portfolio_description {
+    
+    width: 69.01828125%;
+    max-width: 3533.736;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 60.99822916666667%;
+    z-index: ;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+/* ↑ PORTFOLIO OPTION ↑ */
+
 /* ↓ NAVIGATION ↓ */
 
 .button_navigation {

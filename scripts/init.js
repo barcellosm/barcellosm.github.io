@@ -47,19 +47,45 @@ var device = () => {
     
 };
 
-var init = () => {
+var portfolio = type => {
     
-    audios.set();
-    DOMme.showCircle();
-    DOMme.showName();
+    setDOMvalue('portfolio_option', 'display', 'none');
     DOMnavigation.showX('left');
     DOMnavigation.showX('right');
-    device();
-    DOMme.linkCircle('me.animateMe("_forever", "on")');
-    DOMme.linkName('me.animateMe("_forever", "on")');
     DOMnavigation.linkX('left', 'navigation.fromX("from_left", "me")');
     DOMnavigation.linkX('right', 'navigation.fromX("from_right", "me")');
     DOMjob.cleanJob();
+    
+    if (type === 'play') {
+        
+        me.isMe('move in', 'from_center_out');
+        DOMme.linkCircle('me.animateMe("_forever", "on")');
+        DOMme.linkName('me.animateMe("_forever", "on")');
+        
+    } else if (type === 'skip') {
+        
+        discoveredVideos = totalVideos;
+        lockId = ['unlocked', 'unlocked', 'unlocked', 'unlocked'];
+        unlockedLocks = totalLocks;
+        keyId = ['found', 'found', 'found', 'found'];
+        foundKeys = totalLocks;
+        positionLogo = 'final_logo';
+        DOMnavigation.showX('up');
+        DOMnavigation.showX('down');
+        DOMnavigation.linkX('up', 'navigation.fromX("from_above", "me")');
+        DOMnavigation.linkX('down', 'navigation.fromX("from_below", "me")');
+        me.isMe('move in', 'from_center_out');
+                
+    };
+    
+};
+
+var init = () => {
+    
+    audios.set();
+    device();
+    link('image_button_portfolio_play', 'portfolio("play")');
+    link('image_button_portfolio_skip', 'portfolio("skip")');
     
     window.requestAnimationFrame(loop);
     
